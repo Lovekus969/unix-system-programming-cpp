@@ -17,3 +17,9 @@ C is very powerful; it has been used to develop operating systems, databases, ap
 
        Linux Kernel = Mostly C + Some Assembly
        Most Linux tools, utilities, and applications can be written in C, C++, Python, Shell scripts, etc., but the core OS is C-based.s
+
+1. What is AT&T?
+
+       AT&T Inc. is a multinational telecommunications company based in the United States.
+       Founded in 1885 as the American Telephone and Telegraph Company.
+       Headquarters: Dallas, Texas, USA.
