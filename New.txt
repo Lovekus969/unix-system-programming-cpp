@@ -13,3 +13,7 @@ C is very powerful; it has been used to develop operating systems, databases, ap
 
        Only a tiny part of Linux uses assembly.
        Usually for bootstrapping the system, handling hardware interrupts, or CPU-specific instructions.
+3. Summary
+
+       Linux Kernel = Mostly C + Some Assembly
+       Most Linux tools, utilities, and applications can be written in C, C++, Python, Shell scripts, etc., but the core OS is C-based.s
