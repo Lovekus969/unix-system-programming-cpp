@@ -9,3 +9,7 @@ C is very powerful; it has been used to develop operating systems, databases, ap
             Portability: Can run on different hardware architectures.
             Efficiency: Produces fast, low-level machine code.
             Control: Allows direct memory and hardware manipulation.
+2. Assembly Language
+
+       Only a tiny part of Linux uses assembly.
+       Usually for bootstrapping the system, handling hardware interrupts, or CPU-specific instructions.
