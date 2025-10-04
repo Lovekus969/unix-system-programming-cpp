@@ -1,2 +1,9 @@
 Unix system and C language 
 
+Why C for UNIX Kernel?
+
+Balance between high-level programming (easy to read, maintain) and low-level control (close to hardware).
+
+Portability – UNIX could run on many architectures.
+
+Performance – almost as fast as assembly.
