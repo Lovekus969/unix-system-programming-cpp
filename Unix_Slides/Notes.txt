@@ -13,3 +13,16 @@ It provides essential system services like:
         Command-line utilities
 
 Many modern operating systems — like Linux, macOS, Android, and even parts of Windows — are inspired by or based on UNIX principles
+
+Who made UNIX (and who uses it now)?
+   Originally developed by AT&T Bell Labs, UNIX later spread to universities, research institutions, and   companies.
+    Over time, several organizations created their own versions (distributions) of UNIX, such as:
+
+        AT&T System V
+        BSD (Berkeley Software Distribution) – University of California, Berkeley
+        Sun Microsystems – created Solaris
+        IBM – created AIX
+        HP (Hewlett-Packard) – created HP-UX
+        Apple – based macOS on BSD UNIX
+
+Today, UNIX-like systems (such as Linux and macOS) dominate servers, data centers, and developer environments.
