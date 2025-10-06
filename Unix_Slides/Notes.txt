@@ -2,3 +2,14 @@ Unix_Slides
 What is UNIX?
 
 UNIX is a multiuser, multitasking operating system originally designed for computers and servers. It’s known for its stability, security, and portability, meaning it can run on many types of hardware with minimal changes.
+
+
+It provides essential system services like:
+    
+        File management
+        Process management
+        Memory management
+        Device management
+        Command-line utilities
+
+Many modern operating systems — like Linux, macOS, Android, and even parts of Windows — are inspired by or based on UNIX principles
