@@ -1,0 +1,31 @@
+The UNIX operating system is organized into three main layers, forming a layered-style software model.Each layer has specific responsibilities and interacts only with the layer directly above or below it.
+  1. Kernel (Core Layer) Also called: Base Operating System
+      Role: Acts as the core of UNIX — it manages hardware resources and system operations.
+      Functions:
+
+                Process management (creation, scheduling, and termination)
+                Memory management
+                File system management
+                Device management (through device drivers)
+                System calls (interface between user programs and hardware)
+
+Note: The kernel runs in privileged mode and directly interacts with the hardware.
+
+2. Resident Modules Layer (Service Layer) Role: Provides essential service routines that the user or shell requests.
+  Functions:
+        Manages input/output operations
+        Handles file access and manipulation
+        Provides utilities for process control
+        Note: This layer acts as a bridge between the kernel and the user interface, ensuring that user commands are executed properly by calling kernel routines when necessary.
+
+3. Utility Layer (User Interface Layer) Also known as: The Shell Role: Serves as the UNIX user interface.
+
+Functions:
+        Accepts user commands
+        Interprets and passes them to the operating system
+        Displays the output or results to the user
+        Examples of shells:
+        Bourne Shell (sh)
+        C Shell (csh)
+        Korn Shell (ksh)
+        Bash (bash)
