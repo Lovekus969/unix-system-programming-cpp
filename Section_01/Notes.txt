@@ -1,3 +1,4 @@
+                                                  UNIX 
 The UNIX operating system is organized into three main layers, forming a layered-style software model.Each layer has specific responsibilities and interacts only with the layer directly above or below it.
   1. Kernel (Core Layer) Also called: Base Operating System
       Role: Acts as the core of UNIX — it manages hardware resources and system operations.
@@ -46,10 +47,9 @@ Functions:
 
 Key Features of UNIX
 
-                  Multitasking: UNIX allows multiple tasks (processes) to run simultaneously.
-                  Example: You can edit a file, compile a program, and print documents at the same time.
-              
-              Multiuser System: Multiple users can log in and use the system at once, each having their own environment and permissions.
+         Multitasking: UNIX allows multiple tasks (processes) to run simultaneously.
+         Example: You can edit a file, compile a program, and print documents at the same time.
+                       Multiuser System: Multiple users can log in and use the system at once, each having their own environment and permissions.
                   This makes UNIX ideal for servers and shared systems.
               
               Portability: Written mostly in the C language, making it easy to modify and run on different hardware platforms.
