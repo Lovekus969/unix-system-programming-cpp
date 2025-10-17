@@ -118,3 +118,24 @@ Examples:
 
 Examples:
             mail, mailx, sendmail, elm
+
+4. Programmers’ Tools: Support software development and debugging.
+
+Examples:
+            cc, gcc → compilers
+            
+            make → build automation
+            
+            gdb → debugger
+            
+            diff, grep, awk, sed → text and code processing tools
+
+
+
+                                  Summary 
+| **Category**              | **Purpose**                       | **Examples**           |
+| ------------------------- | --------------------------------- | ---------------------- |
+| Text Editing & Formatting | Create, edit, and view text files | `vi`, `cat`, `pr`      |
+| File Manipulation         | Manage files and directories      | `cp`, `mv`, `ls`, `rm` |
+| E-mail Utilities          | Send and receive messages         | `mail`, `sendmail`     |
+| Programmers’ Tools        | Develop and debug programs        | `gcc`, `make`, `gdb`   |
