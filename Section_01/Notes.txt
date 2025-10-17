@@ -42,3 +42,42 @@ Functions:
                                                       +-----------------------------+
                                                       |        Hardware Layer       |
                                                       +-----------------------------+
+
+
+Key Features of UNIX
+
+    Multitasking: UNIX allows multiple tasks (processes) to run simultaneously.
+    Example: You can edit a file, compile a program, and print documents at the same time.
+
+Multiuser System: Multiple users can log in and use the system at once, each having their own environment and permissions.
+    This makes UNIX ideal for servers and shared systems.
+
+Portability: Written mostly in the C language, making it easy to modify and run on different hardware platforms.
+    Security and Protection: UNIX uses file permissions (read, write, execute) and user authentication to protect data.
+    Permissions are set for owner, group, and others.
+
+Hierarchical File System
+    Organizes files in a tree-like structure starting from the root directory (/).
+    Makes file organization, searching, and management efficient.
+
+Shell (Command Interpreter)
+    The shell acts as a user interface — it interprets user commands and communicates with the kernel.
+    It also supports shell scripting for automation.
+
+Device Independence
+    All hardware devices (printers, disks, terminals) are treated as files, making access uniform and simple.
+
+Networking Capabilities
+    UNIX supports communication between systems over networks using standard protocols (TCP/IP).
+
+Utilities and Tools
+    Comes with a large set of powerful built-in utilities for file manipulation, text processing, and system management.
+    Example: grep, awk, sed, find, tar, etc.
+
+Pipelining and Redirection
+    The output of one command can be used as input to another command using pipes (|).
+    Redirection (>, <, >>) controls where input and output go.
+
+✨ Summary (One-line Definition)
+
+UNIX is a portable, multiuser, multitasking operating system with a hierarchical file system, powerful security features, and rich command-line utilities.
