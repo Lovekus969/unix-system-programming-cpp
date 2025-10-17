@@ -89,3 +89,14 @@ Definition
         The UNIX system includes more than 100 utilities (commands).
         These utilities are an essential part of the standard UNIX system and are designed to perform a wide range of user-level functions.
         Each utility performs a specific function, and multiple utilities can be combined using pipes and redirection to create powerful operations.
+
+Types of UNIX Utilities
+
+Text Editing and Text Formatting Utilities: Used for creating, editing, viewing, and formatting text files.
+
+Examples:
+            vi, nano → text editors
+            
+            cat, more, less → viewing files
+            
+            fmt, pr → text formatting
