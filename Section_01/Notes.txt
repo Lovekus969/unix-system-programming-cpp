@@ -113,3 +113,8 @@ Examples:
             ls → list files
             
             mkdir, rmdir → create or remove directories
+
+3. Electronic Mail (E-mail) Utilities: Enable users to send and receive electronic messages.
+
+Examples:
+            mail, mailx, sendmail, elm
