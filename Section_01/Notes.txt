@@ -92,7 +92,7 @@ Definition
 
 Types of UNIX Utilities
 
-Text Editing and Text Formatting Utilities: Used for creating, editing, viewing, and formatting text files.
+1. Text Editing and Text Formatting Utilities: Used for creating, editing, viewing, and formatting text files.
 
 Examples:
             vi, nano → text editors
@@ -100,3 +100,16 @@ Examples:
             cat, more, less → viewing files
             
             fmt, pr → text formatting
+
+2. File Manipulation Utilities: Used for managing files and directories.
+
+Examples:
+            cp → copy files
+            
+            mv → move or rename files
+            
+            rm → remove files
+            
+            ls → list files
+            
+            mkdir, rmdir → create or remove directories
