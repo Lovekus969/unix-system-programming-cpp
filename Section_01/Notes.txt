@@ -29,3 +29,16 @@ Functions:
         C Shell (csh)
         Korn Shell (ksh)
         Bash (bash)
+
+                                                      Summary Diagram (Conceptual View)
+                                                      +-----------------------------+
+                                                      |     Utility Layer (Shell)   |
+                                                      +-----------------------------+
+                                                      |  Resident Modules Layer     |
+                                                      | (Service Routines/Commands) |
+                                                      +-----------------------------+
+                                                      |      Kernel (Core OS)       |
+                                                      | (Hardware Management Layer) |
+                                                      +-----------------------------+
+                                                      |        Hardware Layer       |
+                                                      +-----------------------------+
