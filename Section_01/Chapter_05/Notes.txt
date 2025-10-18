@@ -32,7 +32,7 @@ UNIX provides commands to:
       Organize directories and files
       Track files on the disk
 
-5.2 File Types under UNIX
+5.2.1  File Types under UNIX
     UNIX classifies files into three main types:
 
 Regular Files
@@ -46,3 +46,17 @@ Directory Files
 Special Files (Device Files)
       Represent peripheral devices such as printers, disks, etc.
       Contain device-specific information to interface with the hardware.
+
+
+5.2.2 In a UNIX file system, the terms parent and child are used to describe the hierarchical (tree-like) structure of directories:
+
+      The root directory (/) is at the top of the hierarchy.
+    → It has no parent and is the ancestor of all directories.
+    
+    Every other directory is a child of some parent directory.
+    → For example:
+              /home/user/Documents
+      Or as the same as I can say like that 
+└── home
+    └── user
+        └── Documents
