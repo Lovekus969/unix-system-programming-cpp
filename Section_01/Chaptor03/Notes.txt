@@ -127,14 +127,56 @@ Key Points:
       Here, the $ symbol means you have successfully logged in and the system is ready for your next command.
 
 Incorrect Login or Password
+        
+                If you enter the wrong User ID or password, the UNIX system will not allow access to your account.
+        
+        What Happens:
+                When the information you enter doesn’t match the stored user credentials, UNIX displays an error message, such as:
+        
+        Login incorrect
+                After showing this message, the system once again displays the login prompt:
+        
+        login:
+            This means the system is ready for you to try again by entering your User ID and password correctly.
 
-        If you enter the wrong User ID or password, the UNIX system will not allow access to your account.
+Changing Your Password
+        The passwd command in UNIX is used to change your current password or create one if you don’t already have a password.
 
-What Happens:
-        When the information you enter doesn’t match the stored user credentials, UNIX displays an error message, such as:
+Purpose:
+        
+        Helps maintain account security by allowing you to update your password regularly.
+        
+        Prevents unauthorized access by ensuring only you know your current password.
 
-Login incorrect
-        After showing this message, the system once again displays the login prompt:
+Steps to Change Your Password:
+                  At the system prompt ($ or %), type:     passwd
+                  and press [Return] (or Enter).
+        
+           UNIX will then ask for your current (old) password:
+                Old password:
+        
+        
+        Type your old password and press [Return].
+        (Note: Nothing will appear on the screen as you type.)
+        
+        If the old password is correct, UNIX will prompt you to enter your new password:
+                
+                    New password:
+        Type your new password and press [Return].
+        UNIX will ask you to retype the new password to confirm:
 
-login:
-    This means the system is ready for you to try again by entering your User ID and password correctly.
+                  Retype new password:
+
+        If both entries match, the system displays a message like:
+
+                  Password changed.
+
+        and returns you to the command prompt:
+
+        $ passwd
+        Old password: ********
+        New password: ********
+        Retype new password: ********
+        Password changed.
+        $
+        
