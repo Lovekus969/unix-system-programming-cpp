@@ -1,4 +1,4 @@
-                                                                  Starting a UNIX Session
+                                                              Chapter - 03     Starting a UNIX Session
 
 This chapter focuses on the basic interaction between the user and the UNIX operating system, from logging in to logging out, and introduces essential commands for beginners.
 
@@ -44,3 +44,10 @@ This chapter focuses on the basic interaction between the user and the UNIX oper
 
             UNIX handles tasks through processes, input/output redirection, and file management internally.
             Each command runs as a separate process, and UNIX efficiently manages these processes in the background.
+
+3.1: Establishing Contact with UNIX
+              The process of establishing contact with the UNIX operating system involves a series of prompts and user inputs that mark the beginning and end of a session.
+
+What is a UNIX Session?
+              A session is the period of time during which a user interacts with the computer system after logging in and before logging out.
+              During a session, the user can execute commands, create or modify files, and communicate with the system.
