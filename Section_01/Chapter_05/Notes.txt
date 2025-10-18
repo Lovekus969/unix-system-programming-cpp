@@ -115,3 +115,23 @@ Special Files (Device Files)
     | `/usr/games` | Contains games and recreational programs         |
     | `/usr/bin`   | Stores user-level executable programs            |
 
+  More Important Directories in UNIX
+
+  1. /usr/spool
+  
+    Contains subdirectories that manage queued or temporary files.
+    Examples:
+    
+        /usr/spool/mail → stores users’ mail files.
+      
+        /usr/spool/lp or /usr/spool/printer → stores print jobs waiting to be printed.
+
+    The term spool means Simultaneous Peripheral Operations On-Line, referring to data waiting to be processed by a device.
+
+  2. /usr/sbin
+
+      Contains system administration programs used by the system administrator (root user).
+  
+      These are tools for managing the system, such as:ifconfig, reboot, shutdown, fdisk
+      
+      Regular users usually do not have permission to run these commands.
