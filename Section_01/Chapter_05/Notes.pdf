@@ -19,3 +19,15 @@ Naming conventions
       Discusses rules for naming files and directories (case sensitivity, allowed characters, etc.).
 Practical exercises
       Provides terminal exercises to demonstrate commands and file system navigation.
+
+
+5.1 Disk Organization
+
+      UNIX organizes the hard disk into directories (units) and subdirectories (nested units).
+      Directories can contain other directories, creating a hierarchical structure.
+
+UNIX provides commands to:
+
+      Create directories
+      Organize directories and files
+      Track files on the disk
