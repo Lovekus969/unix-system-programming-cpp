@@ -203,3 +203,16 @@ Steps to Change Your Password:
                       ls → command
                       -l → option
                       /home/david → argument (the directory to list)
+
+General Command Line Format 
+        command [options] [arguments]
+
+More Examples:
+            | Command                  | Description                          |
+            | ------------------------ | ------------------------------------ |
+            | `date`                   | Displays the current date and time   |
+            | `cat file.txt`           | Displays the contents of `file.txt`  |
+            | `rm -r foldername`       | Removes a directory and its contents |
+            | `cp file1.txt file2.txt` | Copies one file to another           |
+
+
