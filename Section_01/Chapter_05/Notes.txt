@@ -65,3 +65,10 @@ Special Files (Device Files)
                   Parent directory → contains one or more child directories or files
                   Child directory → resides inside a parent directory
                   Root directory → the only directory without a parent
+
+5.3.1.0 Important Directories in the UNIX File System
+    1. / (Root Directory)
+    
+        The top-most directory in the UNIX file system hierarchy.
+        All other directories and files branch from it.
+        Acts as the starting point (or base) of the directory tree.
