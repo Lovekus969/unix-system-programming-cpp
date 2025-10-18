@@ -247,3 +247,11 @@ Additional Information:
       | ------- | ------------------------------ | ------------------------------ |
       | `date`  | Displays current date and time | `Mon Oct 14 10:32:05 EST 2025` |
 
+
+3.2.4 Information on Users: The who Command
+
+        The who command in UNIX is used to display information about all users currently logged into the system.
+        Purpose:
+                  It lists the login names, terminal lines, and login times of users who are currently connected.
+                  It helps monitor system activity and check who is using the system at a given time.
+
