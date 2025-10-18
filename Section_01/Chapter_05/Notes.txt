@@ -31,3 +31,18 @@ UNIX provides commands to:
       Create directories
       Organize directories and files
       Track files on the disk
+
+5.2 File Types under UNIX
+    UNIX classifies files into three main types:
+
+Regular Files
+      Contain sequences of bytes.
+      Can be program code, data, text, or other content.
+      
+Directory Files
+      Store information about other files (e.g., file names).
+      Contain multiple records in a special system-defined format.
+
+Special Files (Device Files)
+      Represent peripheral devices such as printers, disks, etc.
+      Contain device-specific information to interface with the hardware.
