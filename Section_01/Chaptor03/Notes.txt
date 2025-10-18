@@ -18,3 +18,29 @@ This chapter focuses on the basic interaction between the user and the UNIX oper
                 Commands in UNIX follow a specific format:
       For example:- >> 
                   command [options] [arguments]
+
+4. Basic UNIX Commands
+
+                ls – Lists files and directories
+                pwd – Displays the current working directory
+                cd – Changes the current directory
+                mkdir – make a new directory
+                rmdir – Removes a directory
+                cat – Displays file contents
+                date – Shows the current date and time
+
+5. Correcting Typing Mistakes
+
+                UNIX allows editing commands directly on the command line:
+                Use Backspace to delete characters.
+                Use Ctrl + U to erase the entire line and start over.
+
+6. Establishing Contact with UNIX
+
+            When a user logs in, the system starts a login shell, loads configuration files (like .profile or .bashrc), and prepares the environment for command execution.
+            The shell interprets user commands, executes them, and displays results.
+
+7. Internal UNIX Operations
+
+            UNIX handles tasks through processes, input/output redirection, and file management internally.
+            Each command runs as a separate process, and UNIX efficiently manages these processes in the background.
