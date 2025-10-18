@@ -110,3 +110,11 @@ Different Prompts for Different Shells
                   | **C Shell (csh)**             | `%`           | `% date`        |
                   | **Superuser (root)**          | `#`           | `# rm file.txt` |
 
+Password
+          A password in UNIX is a sequence of letters, digits, or special characters used to verify a user’s identity and ensure that only authorized individuals can access the system.
+
+Key Points:
+          
+          The password acts as a security measure that protects your account and data from unauthorized use.
+          Each user must have a valid login name (User ID) and password to access the system.
+          Passwords are case-sensitive, meaning uppercase and lowercase letters are treated differently.
