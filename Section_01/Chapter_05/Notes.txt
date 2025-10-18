@@ -135,3 +135,43 @@ Special Files (Device Files)
       These are tools for managing the system, such as:ifconfig, reboot, shutdown, fdisk
       
       Regular users usually do not have permission to run these commands.
+
+  3. /bin
+  
+    Stores essential UNIX commands and basic programs needed for both system operation and user use.
+    
+    Examples: ls, cp, mv, rm, cat, echo, mkdir, rmdir
+
+  4. /dev
+  
+     Contains device files — special files that represent hardware components.
+    These are not “real” files but interfaces to devices.
+
+      Examples:
+      
+      /dev/printer  → printer
+      /dev/disk0    → disk drive
+      /dev/tty      → terminal device
+      /dev/null     → special device that discards all data written to it
+  
+    UNIX treats devices as files, allowing programs to read/write to them easily.
+
+  5. /sbin
+  
+      Holds system binaries — programs used to boot, repair, or maintain the system.
+      These are typically executed automatically during startup or shutdown.
+
+  Examples: init, fsck, mount, umount, shutdown
+
+  6. /etc
+  
+      One of the most important directories in UNIX.
+      Contains system configuration files and startup scripts.
+      These files control how the system behaves.
+
+  Examples:
+  
+  /etc/passwd   → stores user account information
+  /etc/fstab    → lists disk partitions to mount at startup
+  /etc/hosts    → defines network hostnames
+  /etc/profile  → shell startup settings
