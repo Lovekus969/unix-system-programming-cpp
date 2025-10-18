@@ -72,3 +72,10 @@ Special Files (Device Files)
         The top-most directory in the UNIX file system hierarchy.
         All other directories and files branch from it.
         Acts as the starting point (or base) of the directory tree.
+            Example /
+            ├── usr
+            ├── bin
+            ├── etc
+            ├── dev
+            └── tmp
+
