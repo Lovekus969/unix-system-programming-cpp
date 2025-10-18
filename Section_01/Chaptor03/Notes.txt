@@ -280,3 +280,14 @@ How It Works:
     You type a command at the prompt (e.g., $ or %).
     The shell interprets the command.
     It then executes the command — either internally (if it’s built-in) or by locating an external utility program.
+
+
+Shell Commands:
+      Some commands are built into the shell program itself.
+      These are called shell built-in commands because they are recognized and executed directly by the shell without starting another program.
+
+Examples include:
+          cd     # change directory
+          echo   # display text on the screen
+          pwd    # print working directory
+          set    # display or set environment variables
