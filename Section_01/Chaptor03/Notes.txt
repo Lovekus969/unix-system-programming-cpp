@@ -77,3 +77,13 @@ The system then displays a password prompt:
 Type your password carefully — nothing will appear on the screen as you type (for security reasons).
 
 If both the login name and password are correct, UNIX grants you access and displays the shell prompt (e.g., $ or %), indicating that you can now enter commands.
+
+
+                                  login: david
+                                  Password: ********
+                                  $
+                    Here,
+                    
+                    david → is the User ID.
+                    ******** → represents the hidden password.
+                    $ → indicates that the user is successfully logged in and the system is ready for commands.
