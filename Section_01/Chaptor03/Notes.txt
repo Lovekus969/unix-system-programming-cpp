@@ -335,3 +335,10 @@ Additional Information:
             Includes command-line editing, history recall, and job control (the ability to manage multiple processes).
             Provides programming enhancements, such as improved variable handling and arithmetic operations.
             You can run scripts written for the Bourne shell (sh) under the Korn shell without modification.
+
+
+
+| Shell Type       | Abbreviation | Description                                         | Prompt Symbol |
+| ---------------- | ------------ | --------------------------------------------------- | ------------- |
+| **Bourne Shell** | `sh`         | Standard UNIX shell; default on most systems        | `$`           |
+| **Korn Shell**   | `ksh`        | Enhanced version of Bourne shell with more features | `$`           |
