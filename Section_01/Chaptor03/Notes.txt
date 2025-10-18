@@ -51,3 +51,13 @@ This chapter focuses on the basic interaction between the user and the UNIX oper
 What is a UNIX Session?
               A session is the period of time during which a user interacts with the computer system after logging in and before logging out.
               During a session, the user can execute commands, create or modify files, and communicate with the system.
+
+
+    Login Name
+              When a user account is created in UNIX, both a login name (also known as User ID or Username) and a password are assigned.
+
+Key Points:
+
+              Your User ID is unique — it identifies you to the UNIX system and distinguishes you from all other users.
+              It allows the system to manage your personal files, permissions, and access settings securely.
+              The User ID and password together form your credentials for accessing the system.
