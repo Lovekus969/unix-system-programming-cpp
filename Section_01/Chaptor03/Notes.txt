@@ -226,4 +226,18 @@ Steps to Change Your Password:
     The date command in UNIX is used to display the current date and time on the screen.
     Purpose:
           It shows the system’s current date and time.
-          The system administrator sets and maintains this information — regular users cannot change it.
+            The system administrator sets and maintains this information — regular users cannot change it.
+               
+                          $ date
+                      Mon Oct 14 10:32:05 EST 2025
+  Explanation:
+
+      Mon → Day of the week
+      Oct 14 → Month and day
+      10:32:05 → Current time (hour:minute: second)
+      EST → Time zone
+      2025 → Year
+
+Additional Information:
+      The date command simply displays the system’s time settings.
+      Only users with administrator (root) privileges can change the system clock using:
