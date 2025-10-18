@@ -241,3 +241,9 @@ Steps to Change Your Password:
 Additional Information:
       The date command simply displays the system’s time settings.
       Only users with administrator (root) privileges can change the system clock using:
+
+                                Summary 
+      | Command | Description                    | Example Output                 |
+      | ------- | ------------------------------ | ------------------------------ |
+      | `date`  | Displays current date and time | `Mon Oct 14 10:32:05 EST 2025` |
+
