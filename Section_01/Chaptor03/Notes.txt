@@ -275,3 +275,8 @@ It allows you to:
         Run programs and utilities.
         Control processes and input/output redirection.
         Essentially, the shell translates user commands into actions that the operating system understands.
+
+How It Works:
+    You type a command at the prompt (e.g., $ or %).
+    The shell interprets the command.
+    It then executes the command — either internally (if it’s built-in) or by locating an external utility program.
