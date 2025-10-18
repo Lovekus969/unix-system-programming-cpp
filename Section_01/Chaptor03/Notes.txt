@@ -125,3 +125,16 @@ Key Points:
       $
 
       Here, the $ symbol means you have successfully logged in and the system is ready for your next command.
+
+Incorrect Login or Password
+
+        If you enter the wrong User ID or password, the UNIX system will not allow access to your account.
+
+What Happens:
+        When the information you enter doesn’t match the stored user credentials, UNIX displays an error message, such as:
+
+Login incorrect
+        After showing this message, the system once again displays the login prompt:
+
+login:
+    This means the system is ready for you to try again by entering your User ID and password correctly.
