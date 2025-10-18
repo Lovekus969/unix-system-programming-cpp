@@ -77,5 +77,19 @@ Special Files (Device Files)
             ├── bin
             ├── etc
             ├── dev
-            └── tmp
+              └── tmp
+    2. /usr
+    
+      Stands for user.
+      
+          Holds directories and files used by users and system applications.
+          Contains user programs, documentation, and libraries.
+          In some UNIX systems (like Linux), user home directories are instead kept in /home.
 
+    3. /usr/docs
+    
+        Contains documentation files.
+        May include manuals, guides, and text files that describe system features or applications.
+
+    4. /usr/man
+         Stores manual (man) pages, which are the online documentation files accessible using the man command.
