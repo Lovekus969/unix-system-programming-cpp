@@ -60,3 +60,8 @@ Special Files (Device Files)
 └── home
     └── user
         └── Documents
+      
+      In short:
+                  Parent directory → contains one or more child directories or files
+                  Child directory → resides inside a parent directory
+                  Root directory → the only directory without a parent
