@@ -97,3 +97,16 @@ What It Means
                 The $ prompt means the system is ready to accept your commands.
                 It’s like UNIX’s way of saying:
                 “I’m waiting — you can type your next command now.”
+
+
+
+Different Prompts for Different Shells
+              The symbol may vary depending on which shell you are using (a shell is the command interpreter in UNIX):
+
+                  | Shell Type                    | Prompt Symbol | Example         |
+                  | ----------------------------- | ------------- | --------------- |
+                  | **Bourne Shell (sh)**         | `$`           | `$ ls`          |
+                  | **Bash (Bourne Again Shell)** | `$`           | `$ pwd`         |
+                  | **C Shell (csh)**             | `%`           | `% date`        |
+                  | **Superuser (root)**          | `#`           | `# rm file.txt` |
+
