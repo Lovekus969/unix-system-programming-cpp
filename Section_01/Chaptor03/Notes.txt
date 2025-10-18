@@ -61,3 +61,19 @@ Key Points:
               Your User ID is unique — it identifies you to the UNIX system and distinguishes you from all other users.
               It allows the system to manage your personal files, permissions, and access settings securely.
               The User ID and password together form your credentials for accessing the system.
+
+Logging In Process:
+
+When the UNIX system displays the login prompt, type your User ID and press [Return] (or Enter).
+
+                                    login: david
+
+
+The system then displays a password prompt:
+
+                                    Password:
+
+
+Type your password carefully — nothing will appear on the screen as you type (for security reasons).
+
+If both the login name and password are correct, UNIX grants you access and displays the shell prompt (e.g., $ or %), indicating that you can now enter commands.
