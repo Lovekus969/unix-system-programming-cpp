@@ -1,0 +1,20 @@
+                                                                  Starting a UNIX Session
+
+This chapter focuses on the basic interaction between the user and the UNIX operating system, from logging in to logging out, and introduces essential commands for beginners.
+
+1. Logging In and Logging Out
+                To start a UNIX session, a user logs in by entering a valid username and password.
+                Logging in allows access to the UNIX shell — the command-line interface where users can type commands.
+                To end the session, users log out using the logout or exit command, which safely terminates their session.
+
+2. Passwords and Security
+
+                Passwords protect each user’s account from unauthorized access.
+                Users are encouraged to create strong passwords and can change them using the passwd command.
+                UNIX hides passwords for security reasons (not shown on screen while typing).
+
+3. Command Line Format
+
+                Commands in UNIX follow a specific format:
+      For example:- >> 
+                  command [options] [arguments]
