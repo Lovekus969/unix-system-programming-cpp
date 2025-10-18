@@ -255,3 +255,11 @@ Additional Information:
                   It lists the login names, terminal lines, and login times of users who are currently connected.
                   It helps monitor system activity and check who is using the system at a given time.
 
+                        
+                                                Summary 
+
+                    | Command    | Description               | Example Output            |
+                    | ---------- | ------------------------- | ------------------------- |
+                    | `who`      | Lists all logged-in users | `david tty1 Oct 18 09:30` |
+                    | `who am i` | Shows your own login info | `david tty1 Oct 18 09:30` |
+
