@@ -144,3 +144,37 @@ Examples:
 System Services in UNIX
 
     The UNIX operating system provides a wide range of system services that facilitate system administration, maintenance, and communication. These services ensure smooth operation of the system and enable both users and administrators to perform their tasks efficiently.
+
+1. System Administration Service
+
+            Helps administrators manage user accounts, permissions, and system resources.
+            Includes activities like adding or removing users, monitoring processes, and managing system logs.
+            Common commands: useradd, passwd, top, ps, df, du, uptime.
+
+2. System Reconfiguration Service
+
+            Allows administrators to modify or update system configurations.
+            Used when adding new hardware, changing network settings, or updating system parameters.  
+            Configuration files are usually located in the /etc directory.
+
+3. File System Maintenance Service
+
+            Ensures data integrity and efficient use of disk space.
+            Involves creating, mounting, unmounting, and repairing file systems.
+            Common commands: fsck (file system check), mount, umount, mkfs.
+
+4. File Transfer Service
+
+            Enables data transfer between UNIX systems.
+            A well-known service is UUCP (UNIX to UNIX Copy Program), which transfers files, email, and news between systems over modem or serial connections.
+            Modern alternatives include ftp, scp, and rsync.
+
+5. Communication Services
+
+            Support interaction between users and processes.
+            Include messaging (write, wall, mail), inter-process communication (IPC), and network communication tools like ssh and telnet.
+
+6. System Security and Backup Services
+
+            Maintain system integrity and protect data against unauthorized access or loss.
+            Involves setting file permissions, using encryption, and performing regular backups using commands like tar, cpio, or rsync.
