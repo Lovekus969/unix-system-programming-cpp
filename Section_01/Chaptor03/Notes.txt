@@ -303,3 +303,10 @@ Utility Programs
                     cat    # display file contents
                     date   # show current date and time
                     who    # display logged-in users
+
+                      Summary Table 
+| Type                 | Description                               | Examples                   |
+| -------------------- | ----------------------------------------- | -------------------------- |
+| **Shell Commands**   | Built into the shell; executed internally | `cd`, `echo`, `pwd`        |
+| **Utility Programs** | External programs executed by the shell   | `ls`, `cat`, `date`, `who` |
+
