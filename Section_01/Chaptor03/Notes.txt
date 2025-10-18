@@ -324,3 +324,14 @@ Additional Information:
             Performs basic command interpretation and scripting.
             Supports input/output redirection and simple control structures (like loops and conditionals).  
             Used widely in shell scripting for automation.
+
+2. Korn Shell (ksh)
+      
+            The Korn Shell, abbreviated as ksh, is an enhanced version of the Bourne shell.
+            It includes all the features of the Bourne shell (backward compatible) plus many additional capabilities.
+      
+    Features:
+      
+            Includes command-line editing, history recall, and job control (the ability to manage multiple processes).
+            Provides programming enhancements, such as improved variable handling and arithmetic operations.
+            You can run scripts written for the Bourne shell (sh) under the Korn shell without modification.
