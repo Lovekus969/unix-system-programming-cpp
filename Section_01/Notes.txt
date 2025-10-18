@@ -139,3 +139,8 @@ Examples:
 | File Manipulation         | Manage files and directories      | `cp`, `mv`, `ls`, `rm` |
 | E-mail Utilities          | Send and receive messages         | `mail`, `sendmail`     |
 | Programmers’ Tools        | Develop and debug programs        | `gcc`, `make`, `gdb`   |
+
+
+System Services in UNIX
+
+    The UNIX operating system provides a wide range of system services that facilitate system administration, maintenance, and communication. These services ensure smooth operation of the system and enable both users and administrators to perform their tasks efficiently.
