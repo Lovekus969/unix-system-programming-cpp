@@ -87,3 +87,13 @@ If both the login name and password are correct, UNIX grants you access and disp
                     david → is the User ID.
                     ******** → represents the hidden password.
                     $ → indicates that the user is successfully logged in and the system is ready for commands.
+
+Meaning of $ in UNI
+                The $ symbol is called the shell prompt.
+                It appears on the screen after you successfully log in to the UNIX system.
+
+What It Means
+
+                The $ prompt means the system is ready to accept your commands.
+                It’s like UNIX’s way of saying:
+                “I’m waiting — you can type your next command now.”
