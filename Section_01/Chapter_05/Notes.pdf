@@ -1,0 +1,21 @@
+                                                Chapter 5 Overview: UNIX File System Basics
+
+Purpose of Chapter 5
+    Introduces the file structure of UNIX.
+    Acts as the first part of a two-chapter discussion (Chapter 8 continues this topic).
+
+Key Topics Covered
+      Basic concepts of files and directories
+      Explains what files and directories are and how they function.
+      Hierarchical tree structure
+      Shows how files and directories are organized in UNIX in a tree-like hierarchy.
+
+Terminology
+      Defines the key terms used in the UNIX file system (like inode, root directory, parent/child directories, etc.).
+      File system manipulation commands
+      Introduces commands to create, move, delete, and manage files and directories.
+      
+Naming conventions
+      Discusses rules for naming files and directories (case sensitivity, allowed characters, etc.).
+Practical exercises
+      Provides terminal exercises to demonstrate commands and file system navigation.
