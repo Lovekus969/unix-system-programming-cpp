@@ -265,48 +265,62 @@ Additional Information:
 
 3.5 Using Shells and Utilities
 
-The shell is a key component of the UNIX operating system. It acts as an interface between the user and the system’s internal functions.
-When you type a command, the shell interprets it, processes it, and then communicates with the UNIX kernel (the core of the system) to carry out the requested operation.
+    The shell is a key component of the UNIX operating system. It acts as an interface between the user and the system’s internal functions.
+    When you type a command, the shell interprets it, processes it, and then communicates with the UNIX kernel (the core of the system) to carry out the requested operation.
+    
+    The Shell
+          The shell is a program that handles user interaction with UNIX.
+    It allows you to:
+            Enter commands.
+            Run programs and utilities.
+            Control processes and input/output redirection.
+            Essentially, the shell translates user commands into actions that the operating system understands.
+    
+    How It Works:
+        You type a command at the prompt (e.g., $ or %).
+        The shell interprets the command.
+        It then executes the command — either internally (if it’s built-in) or by locating an external utility program.
+    
+    
+    Shell Commands:
+          Some commands are built into the shell program itself.
+          These are called shell built-in commands because they are recognized and executed directly by the shell without starting another program.
+    
+    Examples include:
+              cd     # change directory
+              echo   # display text on the screen
+              pwd    # print working directory
+              set    # display or set environment variables
+    
+    Utility Programs
+            Most UNIX commands are actually external executable programs stored in system directories like /bin, /usr/bin, or /usr/local/bin.
+            When you type such a command, the shell searches for the program file, loads it, and runs it.
+    
+      These are known as utilities.
+        Examples of Utility Programs:
+                        
+                        ls     # list files in a directory
+                        cat    # display file contents
+                        date   # show current date and time
+                        who    # display logged-in users
+    
+                          Summary Table 
+    | Type                 | Description                               | Examples                   |
+    | -------------------- | ----------------------------------------- | -------------------------- |
+    | **Shell Commands**   | Built into the shell; executed internally | `cd`, `echo`, `pwd`        |
+    | **Utility Programs** | External programs executed by the shell   | `ls`, `cat`, `date`, `who` |
 
-The Shell
-      The shell is a program that handles user interaction with UNIX.
-It allows you to:
-        Enter commands.
-        Run programs and utilities.
-        Control processes and input/output redirection.
-        Essentially, the shell translates user commands into actions that the operating system understands.
-
-How It Works:
-    You type a command at the prompt (e.g., $ or %).
-    The shell interprets the command.
-    It then executes the command — either internally (if it’s built-in) or by locating an external utility program.
-
-
-Shell Commands:
-      Some commands are built into the shell program itself.
-      These are called shell built-in commands because they are recognized and executed directly by the shell without starting another program.
-
-Examples include:
-          cd     # change directory
-          echo   # display text on the screen
-          pwd    # print working directory
-          set    # display or set environment variables
-
-Utility Programs
-        Most UNIX commands are actually external executable programs stored in system directories like /bin, /usr/bin, or /usr/local/bin.
-        When you type such a command, the shell searches for the program file, loads it, and runs it.
-
-  These are known as utilities.
-    Examples of Utility Programs:
-                    
-                    ls     # list files in a directory
-                    cat    # display file contents
-                    date   # show current date and time
-                    who    # display logged-in users
-
-                      Summary Table 
-| Type                 | Description                               | Examples                   |
-| -------------------- | ----------------------------------------- | -------------------------- |
-| **Shell Commands**   | Built into the shell; executed internally | `cd`, `echo`, `pwd`        |
-| **Utility Programs** | External programs executed by the shell   | `ls`, `cat`, `date`, `who` |
-
+3.5.1 Kinds of Shells
+    
+    UNIX provides several types of shells, each offering different features and capabilities.
+    A shell is simply a command interpreter — the program that reads your commands and carries them out.
+    
+    1. Bourne Shell (sh)
+            The Bourne Shell, abbreviated as sh, is the standard UNIX shell.
+            It was one of the first shells developed for UNIX and is still widely used today.
+            In most UNIX systems, the Bourne shell is the default shell for users.
+    
+    Features:   
+            Performs basic command interpretation and scripting.
+            Supports input/output redirection and simple control structures (like loops and conditionals).  
+            Used widely in shell scripting for automation.
