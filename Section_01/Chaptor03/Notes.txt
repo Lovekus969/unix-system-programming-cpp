@@ -204,18 +204,26 @@ Steps to Change Your Password:
                       -l → option
                       /home/david → argument (the directory to list)
 
-General Command Line Format 
-        command [options] [arguments]
+      General Command Line Format 
+              command [options] [arguments]
+      
+      More Examples:
+                  | Command                  | Description                          |
+                  | ------------------------ | ------------------------------------ |
+                  | `date`                   | Displays the current date and time   |
+                  | `cat file.txt`           | Displays the contents of `file.txt`  |
+                  | `rm -r foldername`       | Removes a directory and its contents |
+                  | `cp file1.txt file2.txt` | Copies one file to another           |
+      
+      So, in short:
+      
+      ✅ A UNIX command line usually looks like this:
+      Command → Option → Argument
 
-More Examples:
-            | Command                  | Description                          |
-            | ------------------------ | ------------------------------------ |
-            | `date`                   | Displays the current date and time   |
-            | `cat file.txt`           | Displays the contents of `file.txt`  |
-            | `rm -r foldername`       | Removes a directory and its contents |
-            | `cp file1.txt file2.txt` | Copies one file to another           |
 
-So, in short:
+3.2.3 Date and Time Display: The date Command
 
-✅ A UNIX command line usually looks like this:
-Command → Option → Argument
+    The date command in UNIX is used to display the current date and time on the screen.
+    Purpose:
+          It shows the system’s current date and time.
+          The system administrator sets and maintains this information — regular users cannot change it.
