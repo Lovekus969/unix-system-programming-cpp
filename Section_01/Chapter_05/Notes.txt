@@ -93,3 +93,13 @@ Special Files (Device Files)
 
     4. /usr/man
          Stores manual (man) pages, which are the online documentation files accessible using the man command.
+
+    5. /usr/games
+    
+      Contains game programs and recreational software that come with the UNIX system.
+      These are usually small terminal-based games.
+    
+    6. /usr/bin
+  
+      Holds user-level executable programs (binary files).
+      Most of the standard UNIX commands are stored here, such as:  ls, cp, mv, cat, grep, and mkdir
