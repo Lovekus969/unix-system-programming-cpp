@@ -103,3 +103,15 @@ Special Files (Device Files)
   
       Holds user-level executable programs (binary files).
       Most of the standard UNIX commands are stored here, such as:  ls, cp, mv, cat, grep, and mkdir
+
+                          Summary Table 
+
+    | Directory    | Description                                      |
+    | ------------ | ------------------------------------------------ |
+    | `/`          | Root directory; top of the file system hierarchy |
+    | `/usr`       | Holds user programs and files                    |
+    | `/usr/docs`  | Contains documentation files                     |
+    | `/usr/man`   | Stores manual (man) pages                        |
+    | `/usr/games` | Contains games and recreational programs         |
+    | `/usr/bin`   | Stores user-level executable programs            |
+
