@@ -291,3 +291,15 @@ Examples include:
           echo   # display text on the screen
           pwd    # print working directory
           set    # display or set environment variables
+
+Utility Programs
+        Most UNIX commands are actually external executable programs stored in system directories like /bin, /usr/bin, or /usr/local/bin.
+        When you type such a command, the shell searches for the program file, loads it, and runs it.
+
+  These are known as utilities.
+    Examples of Utility Programs:
+                    
+                    ls     # list files in a directory
+                    cat    # display file contents
+                    date   # show current date and time
+                    who    # display logged-in users
