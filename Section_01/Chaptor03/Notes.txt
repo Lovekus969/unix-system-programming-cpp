@@ -118,3 +118,10 @@ Key Points:
           The password acts as a security measure that protects your account and data from unauthorized use.
           Each user must have a valid login name (User ID) and password to access the system.
           Passwords are case-sensitive, meaning uppercase and lowercase letters are treated differently.
+
+      login: david
+      Password: ********
+      Welcome to UNIX System
+      $
+
+      Here, the $ symbol means you have successfully logged in and the system is ready for your next command.
