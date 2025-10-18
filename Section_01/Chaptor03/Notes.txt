@@ -215,4 +215,7 @@ More Examples:
             | `rm -r foldername`       | Removes a directory and its contents |
             | `cp file1.txt file2.txt` | Copies one file to another           |
 
+So, in short:
 
+✅ A UNIX command line usually looks like this:
+Command → Option → Argument
