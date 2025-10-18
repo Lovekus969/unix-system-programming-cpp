@@ -67,111 +67,121 @@ Special Files (Device Files)
                   Root directory → the only directory without a parent
 
 5.3.1.0 Important Directories in the UNIX File System
-    1. / (Root Directory)
+        1. / (Root Directory)
+        
+            The top-most directory in the UNIX file system hierarchy.
+            All other directories and files branch from it.
+            Acts as the starting point (or base) of the directory tree.
+                Example /
+                ├── usr
+                ├── bin
+                ├── etc
+                ├── dev
+                  └── tmp
+        2. /usr
+        
+          Stands for user.
+          
+              Holds directories and files used by users and system applications.
+              Contains user programs, documentation, and libraries.
+              In some UNIX systems (like Linux), user home directories are instead kept in /home.
     
-        The top-most directory in the UNIX file system hierarchy.
-        All other directories and files branch from it.
-        Acts as the starting point (or base) of the directory tree.
-            Example /
-            ├── usr
-            ├── bin
-            ├── etc
-            ├── dev
-              └── tmp
-    2. /usr
+        3. /usr/docs
+        
+            Contains documentation files.
+            May include manuals, guides, and text files that describe system features or applications.
     
-      Stands for user.
+        4. /usr/man
+             Stores manual (man) pages, which are the online documentation files accessible using the man command.
+    
+        5. /usr/games
+        
+          Contains game programs and recreational software that come with the UNIX system.
+          These are usually small terminal-based games.
+        
+        6. /usr/bin
       
-          Holds directories and files used by users and system applications.
-          Contains user programs, documentation, and libraries.
-          In some UNIX systems (like Linux), user home directories are instead kept in /home.
-
-    3. /usr/docs
+          Holds user-level executable programs (binary files).
+          Most of the standard UNIX commands are stored here, such as:  ls, cp, mv, cat, grep, and mkdir
     
-        Contains documentation files.
-        May include manuals, guides, and text files that describe system features or applications.
-
-    4. /usr/man
-         Stores manual (man) pages, which are the online documentation files accessible using the man command.
-
-    5. /usr/games
+                              Summary Table 
     
-      Contains game programs and recreational software that come with the UNIX system.
-      These are usually small terminal-based games.
+        | Directory    | Description                                      |
+        | ------------ | ------------------------------------------------ |
+        | `/`          | Root directory; top of the file system hierarchy |
+        | `/usr`       | Holds user programs and files                    |
+        | `/usr/docs`  | Contains documentation files                     |
+        | `/usr/man`   | Stores manual (man) pages                        |
+        | `/usr/games` | Contains games and recreational programs         |
+        | `/usr/bin`   | Stores user-level executable programs            |
     
-    6. /usr/bin
-  
-      Holds user-level executable programs (binary files).
-      Most of the standard UNIX commands are stored here, such as:  ls, cp, mv, cat, grep, and mkdir
-
-                          Summary Table 
-
-    | Directory    | Description                                      |
-    | ------------ | ------------------------------------------------ |
-    | `/`          | Root directory; top of the file system hierarchy |
-    | `/usr`       | Holds user programs and files                    |
-    | `/usr/docs`  | Contains documentation files                     |
-    | `/usr/man`   | Stores manual (man) pages                        |
-    | `/usr/games` | Contains games and recreational programs         |
-    | `/usr/bin`   | Stores user-level executable programs            |
-
-  More Important Directories in UNIX
-
-  1. /usr/spool
-  
-    Contains subdirectories that manage queued or temporary files.
-    Examples:
+      More Important Directories in UNIX
     
-        /usr/spool/mail → stores users’ mail files.
+      1. /usr/spool
       
-        /usr/spool/lp or /usr/spool/printer → stores print jobs waiting to be printed.
-
-    The term spool means Simultaneous Peripheral Operations On-Line, referring to data waiting to be processed by a device.
-
-  2. /usr/sbin
-
-      Contains system administration programs used by the system administrator (root user).
-  
-      These are tools for managing the system, such as:ifconfig, reboot, shutdown, fdisk
-      
-      Regular users usually do not have permission to run these commands.
-
-  3. /bin
-  
-    Stores essential UNIX commands and basic programs needed for both system operation and user use.
+        Contains subdirectories that manage queued or temporary files.
+        Examples:
+        
+            /usr/spool/mail → stores users’ mail files.
+          
+            /usr/spool/lp or /usr/spool/printer → stores print jobs waiting to be printed.
     
-    Examples: ls, cp, mv, rm, cat, echo, mkdir, rmdir
-
-  4. /dev
-  
-     Contains device files — special files that represent hardware components.
-    These are not “real” files but interfaces to devices.
-
+        The term spool means Simultaneous Peripheral Operations On-Line, referring to data waiting to be processed by a device.
+    
+      2. /usr/sbin
+    
+          Contains system administration programs used by the system administrator (root user).
+      
+          These are tools for managing the system, such as:ifconfig, reboot, shutdown, fdisk
+          
+          Regular users usually do not have permission to run these commands.
+    
+      3. /bin
+      
+        Stores essential UNIX commands and basic programs needed for both system operation and user use.
+        
+        Examples: ls, cp, mv, rm, cat, echo, mkdir, rmdir
+    
+      4. /dev
+      
+         Contains device files — special files that represent hardware components.
+        These are not “real” files but interfaces to devices.
+    
+          Examples:
+          
+          /dev/printer  → printer
+          /dev/disk0    → disk drive
+          /dev/tty      → terminal device
+          /dev/null     → special device that discards all data written to it
+      
+        UNIX treats devices as files, allowing programs to read/write to them easily.
+    
+      5. /sbin
+      
+          Holds system binaries — programs used to boot, repair, or maintain the system.
+          These are typically executed automatically during startup or shutdown.
+    
+      Examples: init, fsck, mount, umount, shutdown
+    
+      6. /etc
+      
+          One of the most important directories in UNIX.
+          Contains system configuration files and startup scripts.
+          These files control how the system behaves.
+    
       Examples:
       
-      /dev/printer  → printer
-      /dev/disk0    → disk drive
-      /dev/tty      → terminal device
-      /dev/null     → special device that discards all data written to it
-  
-    UNIX treats devices as files, allowing programs to read/write to them easily.
+      /etc/passwd   → stores user account information
+      /etc/fstab    → lists disk partitions to mount at startup
+      /etc/hosts    → defines network hostnames
+      /etc/profile  → shell startup settings
+                                              5.3.1.0. Summary Table 
 
-  5. /sbin
-  
-      Holds system binaries — programs used to boot, repair, or maintain the system.
-      These are typically executed automatically during startup or shutdown.
-
-  Examples: init, fsck, mount, umount, shutdown
-
-  6. /etc
-  
-      One of the most important directories in UNIX.
-      Contains system configuration files and startup scripts.
-      These files control how the system behaves.
-
-  Examples:
-  
-  /etc/passwd   → stores user account information
-  /etc/fstab    → lists disk partitions to mount at startup
-  /etc/hosts    → defines network hostnames
-  /etc/profile  → shell startup settings
+              | Directory    | Description                                                           |
+              | ------------ | --------------------------------------------------------------------- |
+              | `/usr/spool` | Holds subdirectories for mail and print jobs (queued files)           |
+              | `/usr/sbin`  | System administration programs (for root user)                        |
+              | `/bin`       | Basic UNIX commands available to all users                            |
+              | `/dev`       | Device files representing hardware components                         |
+              | `/sbin`      | System binaries run automatically by UNIX (startup, shutdown, repair) |
+              | `/etc`       | Configuration files controlling system behavior                       |
