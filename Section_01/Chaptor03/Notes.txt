@@ -179,4 +179,27 @@ Steps to Change Your Password:
         Retype new password: ********
         Password changed.
         $
-        
+3.2.2 Basic Command Line Structure
+
+      In UNIX, every command line that you type at the system prompt follows a standard structure.
+      Each command line is made up of three main fields:
+
+      1. Command Name
+                This is the name of the program or instruction you want UNIX to execute.
+      
+   For Example: =>   ls      Here, ls is the command used to list files in a directory.
+
+      2. Options
+            Options modify how a command behaves.
+            They usually begin with a dash (-) or double dash (--) and can be combined.
+
+     For Example:=> ls -l
+      Here, -l is an option that tells ls to display files in long listing format (with details like permissions, owner, and file size)
+
+      3. Arguments
+              Arguments specify the object the command acts upon — such as a file, directory, or path.
+          For Example:=>>   ls -l /home/david
+
+                      ls → command
+                      -l → option
+                      /home/david → argument (the directory to list)
