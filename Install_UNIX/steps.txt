@@ -1,0 +1,21 @@
+Instructions for installing Unix Environment (OpenBSD) in Virtualbox:
+1. Download VirtualBox software and install it.  Link: https://www.virtualbox.org/wiki/Downloads
+2. Download UNIX ISO image from the given link. Link: https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
+(Often there may be problems with the latest version. Previously working ISO was version 7.1 which is not available anymore on openbsd.org but still on mirror site https://mirrors.ucr.ac.cr/pub/OpenBSD/7.1/amd64/install71.iso)
+3. Rename the downloaded file to Unix-OpenBSD.iso
+4. Launch VirtualBox software and create New virtual machine by selecting the New option.
+5. Give OS name and select the iso image Unix-OpenBSD.iso that you downloaded.
+6. Set Type BSD, Version FreeBSD 64-bit
+7. Complete the next process using default or desired options and Finish the creation process.
+8. Open the virtual machine that you just created
+
+Setting up OpenBSD:
+On the welcome window, read instructions carefully and give appropriate input. (For default Input hit ENTER)
+Hit I to install and enter required details whenever prompted. Otherwise just keep hitting ENTER
+At last, you will be asked Continue without verification. Enter Yes and the setup will be completed
+Removing the attached ISO file from virtual machine
+Power off the system after it is setup.
+Go to Settings->Storage
+Select the iso File and then remove it.
+
+Now when you boot your virtual machine, it should run UNIX.
