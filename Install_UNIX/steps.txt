@@ -11,7 +11,7 @@ Open VirtualBox.
 
       If your VirtualBox has errors or version issues:
       Uninstall VirtualBox from your system.
-        Go to https://www.virtualbox.org/wiki/Downloads
+        Go to https://www.virtualbox.org/wiki/Downloads            go to thid link copy paste it            https://www.virtualbox.org/wiki/Downloads
       .
 
 Download and install the latest version for your operating system (Windows, macOS, or Linux).
