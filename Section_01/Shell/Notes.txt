@@ -162,3 +162,11 @@ Step 4: Run your script
               and it feels like you created your own command — just like ls, pwd, or cat.
               
               🎯 Summary (the magic in one glance)
+
+        | Command          | Meaning                         | Example         |
+        | ---------------- | ------------------------------- | --------------- |
+        | `ls -l`          | show file permissions           | `ls -l won`     |
+        | `chmod +x file`  | add execute permission          | `chmod +x won`  |
+        | `chmod 755 file` | make it executable for everyone | `chmod 755 won` |
+        | `chmod +x *.sh`  | make all `.sh` files executable | `chmod +x *.sh` |
+        | `./file`         | run the executable file         | `./won`         |
