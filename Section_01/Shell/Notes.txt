@@ -203,3 +203,14 @@ Shells further table
 | **12**  | `echo "Your current directory:\c"`        | Prints text showing the directory label on the same line.                                                    |                                                               |                                                                                   |
 | **13**  | `pwd`                                     | Prints the **current working directory** (where you are).                                                    |                                                               |                                                                                   |
 | **14**  | `echo`                                    | Another blank line to make output look neat.                                                                 |                                                               |                                                                                   |
+
+Here’s what’s happening in the output:
+
+ Command run:
+    $ won3
+
+ Output displayed:
+  Date and Time:Wed Nov 30 15:00:52 EDT 2005
+  Number of users logged in:14
+  Your current directory:/usr/students/david
+  $_
