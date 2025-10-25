@@ -1,1 +1,3 @@
 
+Cheack all shell commands on this website copy and paste the link to see.
+https://explainshell.com/explain?cmd=ls#
