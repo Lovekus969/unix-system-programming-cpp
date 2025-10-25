@@ -114,3 +114,51 @@ The first part -rw-r--r-- tells you:
                 Now type:      chmod +x won
 
 chmod means change mode (mode = file permissions).      The +x means “add execute permission.”  here is the key 🗝 
+
+Step 4: Run your script
+              
+              If your file won contains something like this:
+              #!/bin/bash
+              echo "Hello, world! This is my first shell script."
+              
+              
+              You can now run it like this:
+              
+                  ./won
+                  Output:
+                  
+                  Hello, world! This is my first shell script.
+              
+              
+              That’s your shell script running as a real program 🚀
+              
+              🧰 Step 5: Making multiple scripts executable
+              
+              Let’s say you have several .sh files:
+                                
+                                won.sh
+                                test.sh
+                                setup.sh
+              
+              Instead of doing chmod +x one by one, you can do:
+                          chmod +x *.sh
+              That tells the system:
+              
+              “Make all files that end with .sh executable.”
+              
+              🔁 Step 6: If you want to make everything executable
+                       Sometimes you might have many different scripts (not only .sh), then:
+              
+                        chmod +x *
+              This gives all files in the current folder the permission to run.
+                  ⚠️ But be careful — some files might not need to be executable (like images or text files).
+              
+              🧙 Step 7: Why it’s important
+              
+              Making a script executable turns it into something like your own mini-command!
+              For example, after doing chmod +x won, you can simply type:
+              
+                            ./won
+              and it feels like you created your own command — just like ls, pwd, or cat.
+              
+              🎯 Summary (the magic in one glance)
