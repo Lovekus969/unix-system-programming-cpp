@@ -62,3 +62,27 @@ A shell script is a file containing a series of shell commands that the shell ex
                               3. wc -l
                               
                               Counts the number of lines in the input it receives.
+
+
+                $ sh won                                           here .........
+                              Meaning
+                              
+                                                sh → invokes the Bourne shell (or the system’s default shell).
+                                                won → is the name of the file you are asking the shell to run (a script file).
+                                                So, this command means:
+                              
+                              “Run the shell script named won using the shell interpreter.”
+
+              For example:
+
+                    If you have a file called won that contains:
+
+                              #!/bin/bash
+                              echo "Hello, World!"
+                  and you run:
+
+                  $ sh won
+
+                  
+          Output will be:
+                                                  Hello, World!
