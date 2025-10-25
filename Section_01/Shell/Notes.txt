@@ -42,3 +42,23 @@ The UNIX shell is a command language that is interpreted, not compiled.
 
 A shell script is a file containing a series of shell commands that the shell executes in sequence.
 → Instead of typing commands one by one in the terminal, you can save them in a file and run the whole file at once.
+
+
+                who | wc -l                                        explain down 
+
+                              . who
+                              
+                              Shows who is currently logged in to the system.
+                              Example output:
+                              
+                              bhavneet  tty1  Oct 25 09:30
+                              kush      pts/0 Oct 25 10:00
+                              
+                              2. | (Pipe)
+                              
+                              The pipe operator takes the output of the command on the left (who)
+                              and sends it as input to the command on the right (wc -l).
+                              
+                              3. wc -l
+                              
+                              Counts the number of lines in the input it receives.
