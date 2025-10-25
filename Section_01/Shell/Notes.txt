@@ -177,3 +177,15 @@ Step 4: Run your script
     | `.`    | current directory / source script / hidden files | `cd .` / `. won.sh`               | Run in current shell or refer to here |
     | `=`    | variable assignment or string comparison         | `name="Kush"` / `[ "$a" = "$b" ]` | Assign value or compare strings       |
 
+Shells further table 
+
+| Command   | Bourne Shell (`sh`) | Korn Shell (`ksh`) | Bourne Again Shell (`bash`) | Meaning                                    |
+| --------- | ------------------- | ------------------ | --------------------------- | ------------------------------------------ |
+| **exit**  | ✔ built-in          | ✔ built-in         | ✔ built-in                  | Exits the shell                            |
+| **for**   | ✔                   | ✔                  | ✔                           | Starts a loop                              |
+| **if**    | ✔                   | ✔                  | ✔                           | Used for conditional statements            |
+| **let**   | ❌ (not in Bourne)   | ✔                  | ✔                           | Performs arithmetic evaluation             |
+| **read**  | ✔                   | ✔                  | ✔                           | Reads input from the user                  |
+| **test**  | ✔                   | ✔                  | ✔                           | Tests conditions (numbers, strings, files) |
+| **until** | ✔                   | ✔                  | ✔                           | Loop until a condition is true             |
+| **while** | ✔                   | ✔                  | ✔                           | Loop while a condition is true             |
