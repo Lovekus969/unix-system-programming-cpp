@@ -86,3 +86,31 @@ A shell script is a file containing a series of shell commands that the shell ex
                   
           Output will be:
                                                   Hello, World!
+
+
+
+Step 1: What does “executable” mean?
+
+In UNIX/Linux, every file has permissions — they tell who can do what with that file:
+                r → read (you can open and view the file)
+                w → write (you can edit the file)
+                x → execute (you can run it like a program)
+
+When you “make a file executable,” you’re giving it permission to run — telling the computer:
+      “Hey! You can treat this file like a program!”
+🧩 Step 2: Checking a file’s permissions
+          Let’s say you have a file named won.
+      Type:    ls -l won
+You might see something like:
+      -rw-r--r--  1 bhavneet  users  50 Oct 25 14:12 won
+
+The first part -rw-r--r-- tells you:
+                
+                r and w for the owner (you can read/write)
+                but no x, meaning it’s not executable yet ❌
+
+⚡ Step 3: Make it executable
+
+                Now type:      chmod +x won
+
+chmod means change mode (mode = file permissions).      The +x means “add execute permission.”  here is the key 🗝 
