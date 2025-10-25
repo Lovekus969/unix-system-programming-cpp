@@ -2,8 +2,10 @@
 Cheack all shell commands on this website copy and paste the link to see.
 https://explainshell.com/explain?cmd=ls#
 
-Chapter Overview: Shell as a High-Level Language
-  This chapter focuses on the capabilities of the UNIX shell, showing that it is not just a command interpreter but also a powerful high-level programming language.
+                                                    Chapter Overview: Shell as a High-Level Language
+
+
+This chapter focuses on the capabilities of the UNIX shell, showing that it is not just a command interpreter but also a powerful high-level programming language.
   It covers the following key topics:
 
 Variables – How to create, assign, and use variables in shell scripts to store data (like numbers, strings, filenames, etc.).
@@ -25,3 +27,18 @@ How to identify and fix errors in shell programs using options like:
     
     sh -x scriptname.sh (to trace execution)
     echo statements (to print variable values and track flow)
+
+
+Shell as a Command Language
+
+The UNIX shell is a command language that is interpreted, not compiled.
+→ This means commands are executed line by line by the shell, rather than being converted into machine code before running.
+
+    Shell Program Files are called:
+
+                                  Shell procedures
+                                  Shell scripts
+                                  Or simply scripts
+
+A shell script is a file containing a series of shell commands that the shell executes in sequence.
+→ Instead of typing commands one by one in the terminal, you can save them in a file and run the whole file at once.
