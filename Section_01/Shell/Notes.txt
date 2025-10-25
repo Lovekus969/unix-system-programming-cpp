@@ -214,3 +214,9 @@ Here’s what’s happening in the output:
   Number of users logged in:14
   Your current directory:/usr/students/david
   $_
+
+| Line                                         | Command | Description                                       |                                               |
+| -------------------------------------------- | ------- | ------------------------------------------------- | --------------------------------------------- |
+| `Date and Time:...`                          | `date`  | Prints current system date and time               |                                               |
+| `Number of users logged in:14`               | `who    | wc -l`                                            | Counts how many users are currently logged in |
+| `Your current directory:/usr/students/david` | `pwd`   | Shows the absolute path of your current directory |                                               |
