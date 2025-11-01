@@ -30,3 +30,9 @@ Example:
       }
 1️⃣ What is an Assignment Statement?
         An assignment statement is used to store a value into a variable.
+
+
+What is c += 4?
+       
+        This is called a compound assignment operator.
+        It is a shortcut for adding a value to a variable.  ( Read + write +Add) 
