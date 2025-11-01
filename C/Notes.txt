@@ -1,12 +1,30 @@
 C
 What Are Control Structures?
+    Control structures control the flow of execution in a program — that is, the order in which instructions are run.
+    There are three main types of control structures:
 
-Control structures control the flow of execution in a program — that is, the order in which instructions are run.
+    Sequence
+    
+    Selection
+    
+    Iteration (not insertion)
 
-There are three main types of control structures:
+Sequence Structure
+    This is the default way code runs — one statement after another, from top to bottom.
+    Example (in Java or C++):
 
-Sequence
 
-Selection
+Selection Structure (Decision Making)
+    Used when you need to choose between options.
+    Common keywords: if, else if, else, switch.
 
-Iteration (not insertion)
+Iteration Structure (Loops)
+
+  Repeats a block of code multiple times until a condition is false.
+  Common loops: for, while, do-while.
+
+Example:
+      
+      for (int i = 1; i <= 5; i++) {
+          System.out.println("Count: " + i);
+      }
