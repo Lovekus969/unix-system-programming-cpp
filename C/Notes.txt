@@ -36,3 +36,14 @@ What is c += 4?
        
         This is called a compound assignment operator.
         It is a shortcut for adding a value to a variable.  ( Read + write +Add) 
+
+
+CPython — The Standard Python Implementation
+    Python as a language has many implementations:
+        CPython (the most common) ✅
+                PyPy
+                Jython
+                IronPython
+            
+            CPython is the reference implementation of Python.
+            It is written in C — the interpreter that runs your .py files is C code
