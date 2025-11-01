@@ -28,3 +28,5 @@ Example:
       for (int i = 1; i <= 5; i++) {
           System.out.println("Count: " + i);
       }
+1️⃣ What is an Assignment Statement?
+        An assignment statement is used to store a value into a variable.
