@@ -1,0 +1,12 @@
+C
+What Are Control Structures?
+
+Control structures control the flow of execution in a program — that is, the order in which instructions are run.
+
+There are three main types of control structures:
+
+Sequence
+
+Selection
+
+Iteration (not insertion)
