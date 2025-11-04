@@ -1,9 +1,16 @@
 What is C Language?
+    
+    C is a general-purpose, procedural programming language that’s used to write system software, operating systems (like UNIX/Linux), and applications.
+    It’s called the “mother of all modern languages” because C directly influenced C++, Java, Python, C#, Go, and many others.
+   
+When and Why C Was Created
+    | **Year**      | **Event**                                                                                                                                                      |
+    | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **1969–1972** | **Dennis Ritchie** at **Bell Labs (AT&T, USA)** developed C.                                                                                                   |
+    | **Purpose**   | It was made to **rewrite the UNIX operating system** (which was originally written in assembly).                                                               |
+    | **Why**       | Assembly was fast but hard to maintain and not portable. C gave the same power as assembly but was easier to write, understand, and run on different machines. |
 
-C is a general-purpose, procedural programming language that’s used to write system software, operating systems (like UNIX/Linux), and applications.
-It’s called the “mother of all modern languages” because C directly influenced C++, Java, Python, C#, Go, and many others.
-What Are Control Structures?
-
+ What Are Control Structures?
     Control structures control the flow of execution in a program — that is, the order in which instructions are run.
     There are three main types of control structures:
 
