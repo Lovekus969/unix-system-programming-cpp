@@ -18,6 +18,30 @@ Why We Still Use C Today
     💪 Used in tech giants: Many systems at Microsoft, Apple, and Linux are still written in C.
 Associativity
         If two operators have the same precedence, associativity decides which one is evaluated first — left to right or right to left.
+Operator Precedence Table (Most to Least Priority)
+    | **Precedence Level** | **Operators**                                                | **Associativity** | **Meaning**                                  |               |            |
+    | -------------------- | ------------------------------------------------------------ | ----------------- | -------------------------------------------- | ------------- | ---------- |
+    | 1️⃣ (Highest)        | `()` `[]` `->` `.`                                           | Left to Right     | Function call, array index, structure access |               |            |
+    | 2️⃣                  | `++` `--` `!` `~` `+` `-` (unary) `*` (pointer) `&` `sizeof` | Right to Left     | Unary operators                              |               |            |
+    | 3️⃣                  | `*` `/` `%`                                                  | Left to Right     | Multiplication, division, modulo             |               |            |
+    | 4️⃣                  | `+` `-`                                                      | Left to Right     | Addition, subtraction                        |               |            |
+    | 5️⃣                  | `<<` `>>`                                                    | Left to Right     | Bitwise shift                                |               |            |
+    | 6️⃣                  | `<` `<=` `>` `>=`                                            | Left to Right     | Relational                                   |               |            |
+    | 7️⃣                  | `==` `!=`                                                    | Left to Right     | Equality                                     |               |            |
+    | 8️⃣                  | `&`                                                          | Left to Right     | Bitwise AND                                  |               |            |
+    | 9️⃣                  | `^`                                                          | Left to Right     | Bitwise XOR                                  |               |            |
+    | 🔟                   | `                                                            | `                 | Left to Right                                | Bitwise OR    |            |
+    | 11                   | `&&`                                                         | Left to Right     | Logical AND                                  |               |            |
+    | 12                   | `                                                            |                   | `                                            | Left to Right | Logical OR |
+    | 13                   | `?:`                                                         | Right to Left     | Conditional (ternary)                        |               |            |
+    | 14                   | `=` `+=` `-=` `*=` `/=` `%=`                                 | Right to Left     | Assignment                                   |               |            |
+    | 15 (Lowest)          | `,`                                                          | Left to Right     | Comma operator                               |               |            |
+    
+    
+
+
+
+
  What Are Control Structures?
     Control structures control the flow of execution in a program — that is, the order in which instructions are run.
     There are three main types of control structures:
