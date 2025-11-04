@@ -9,6 +9,12 @@ When and Why C Was Created
     | **1969–1972** | **Dennis Ritchie** at **Bell Labs (AT&T, USA)** developed C.                                                                                                   |
     | **Purpose**   | It was made to **rewrite the UNIX operating system** (which was originally written in assembly).                                                               |
     | **Why**       | Assembly was fast but hard to maintain and not portable. C gave the same power as assembly but was easier to write, understand, and run on different machines. |
+Why We Still Use C Today
+    🧩 Speed: C is close to hardware, so it runs extremely fast.
+    💻 System-level programming: Used to build kernels, device drivers, and embedded systems.
+    🧠 Foundation for other languages: Learning C helps you understand how computers work internally (memory, CPU cycles, etc.).
+    📦 Portability: C code can run on almost any platform.
+    💪 Used in tech giants: Many systems at Microsoft, Apple, and Linux are still written in C.
 
  What Are Control Structures?
     Control structures control the flow of execution in a program — that is, the order in which instructions are run.
