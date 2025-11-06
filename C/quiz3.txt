@@ -1,0 +1,40 @@
+Question 1:
+Which header file is needed to compile printf() function?
+✅ Answer: stdio.h
+
+Question 2:
+C provides _____ as the multiple-selection statement.
+✅ Answer: switch
+
+Question 3:
+C provides the keyword __________ as the optional case for multiple-selection statement.
+✅ Answer: default
+
+Question 4:
+We have used the compiler command ______ to compile a C program.
+✅ Answer: gcc
+
+Question 5:
+Normally, statements in a program execute one after the other in the order in which you write them called __________ execution.
+✅ Answer: sequential
+
+Question 6:
+The conditional operator is C’s only _____ operator (3 operands).
+✅ Answer: ternary
+
+Question 7:
+An _____ statement repeats an action while a condition remains true.
+✅ Answer: iteration
+(You can also say loop, but iteration is the textbook term.)
+
+Question 8:
+When the loop will never terminate, it is called an _____ loop.
+✅ Answer: infinite
+
+Question 9:
+The function getchar() will read one _____ from the keyboard.
+✅ Answer: character
+
+Question 10:
+Common usage of _____ statement is to escape early from a loop or skip the remainder of a switch.
+✅ Answer: break
