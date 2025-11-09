@@ -7,3 +7,4 @@ The Core Analogy: Pointers are ADDRESSES
       Has a unique address (memory address)
       Can hold some content (data)
   A pointer is simply a piece of paper that writes down an address, NOT the content itself.
+
