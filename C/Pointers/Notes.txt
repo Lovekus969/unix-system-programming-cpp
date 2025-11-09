@@ -1,1 +1,3 @@
 What are pointers in c 
+Q1What are Pointers?
+Pointers are variables that store memory addresses instead of values. They "point" to where data lives in memory.
