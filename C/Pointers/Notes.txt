@@ -8,3 +8,31 @@ The Core Analogy: Pointers are ADDRESSES
       Can hold some content (data)
   A pointer is simply a piece of paper that writes down an address, NOT the content itself.
 
+
+Basic Data Types in C with Sizes
+1. Integer Types
+| Data Type            | Size (bytes) | Typical Range                       | Format Specifier |
+| -------------------- | ------------ | ----------------------------------- | ---------------- |
+| `char`               | 1            | -128 to 127                         | `%c`, `%d`       |
+| `unsigned char`      | 1            | 0 to 255                            | `%c`, `%u`       |
+| `short`              | 2            | -32,768 to 32,767                   | `%hd`            |
+| `unsigned short`     | 2            | 0 to 65,535                         | `%hu`            |
+| `int`                | 4            | -2,147,483,648 to 2,147,483,647     | `%d`             |
+| `unsigned int`       | 4            | 0 to 4,294,967,295                  | `%u`             |
+| `long`               | 4 or 8       | Platform dependent                  | `%ld`            |
+| `unsigned long`      | 4 or 8       | Platform dependent                  | `%lu`            |
+| `long long`          | 8            | Very large range (±9.22e18 approx.) | `%lld`           |
+| `unsigned long long` | 8            | 0 to 1.84e19 approx.                | `%llu`           |
+
+2. Floating-Point Types
+| Data Type     | Size (bytes) | Precision (approx.)  | Format Specifier |
+| ------------- | ------------ | -------------------- | ---------------- |
+| `float`       | 4            | 6–7 decimal digits   | `%f`             |
+| `double`      | 8            | 15–16 decimal digits | `%lf`            |
+| `long double` | 10–16        | Platform dependent   | `%Lf`            |
+3. Void Type
+| Data Type | Size (bytes) | Description                                                                                                   |
+| --------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
+| `void`    | 0            | Represents “no value” — used for functions that return nothing, or for pointers to untyped memory (`void *`). |
+
+
