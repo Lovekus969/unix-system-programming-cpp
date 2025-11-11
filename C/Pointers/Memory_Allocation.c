@@ -11,7 +11,11 @@ int main() {
         printf("Memory allocation failed!\n");
         return 1;
     }
-    
+    /*
+RAM is like a massive street with numbered houses (memory addresses)
+Each house can store 1 byte (8 bits) of data
+Addresses are typically represented in hexadecimal: 0x1000, 0x1001, 0x1002, etc.
+*/
     printf("Base address: %p\n\n", (void*)ptr);
     
     // Initialize each integer with unique values
