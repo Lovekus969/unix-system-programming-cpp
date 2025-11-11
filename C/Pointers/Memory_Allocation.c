@@ -6,7 +6,7 @@ int main() {
     
     // Allocate space for 10 integers = 40 bytes
     int *ptr = (int*)malloc(10 * sizeof(int));
-    
+    // understand how malloc fucntion work and what it mean by 10* size of(int) =4*10 = 40 bytes spaces in total 
     if(ptr == NULL) {
         printf("Memory allocation failed!\n");
         return 1;
