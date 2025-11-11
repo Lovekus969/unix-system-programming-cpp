@@ -97,3 +97,6 @@ C and C# are distinct programming languages with different paradigms and use cas
 C:
         Paradigm: Procedural, low-level language.
         Memory Management: Manual, using functions like malloc(), calloc(), and free() for direct memory control. (More imp question as a software developer it should be done understanding a next level understanding needed.
+
+: What is Dereferencing?
+Dereferencing means accessing the VALUE stored at the memory address that a pointer holds.
