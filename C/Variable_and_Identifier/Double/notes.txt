@@ -1,0 +1,8 @@
+Data Type: double
+Numbers with decimal parts can be represented using the double data type.
+
+For example, 32.9, -56.5, 9.0, etc., can all be represented by the double data type.
+
+As we learnt earlier, %d is the format specifier for the int data type. Similarly, %lf is the format specifier for the double type.
+
+Let's see a program that declares and prints a double variable:
