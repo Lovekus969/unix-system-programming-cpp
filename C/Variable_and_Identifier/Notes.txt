@@ -6,3 +6,9 @@ But when printing a variable, we need to tell printf() what kind of data the var
 Each data type has an associated format specifier.
 
 For example, if we have an integer variable age and we want to print it, we'll use the format specifier %d.
+
+                    #include <stdio.h> — gives access to printf().
+                    %d — is a format specifier used for integers.
+                    printf() — prints the formatted string to the console.
+                    Always end your statement with a semicolon ;.
+                    return 0; — signals successful program completion.
