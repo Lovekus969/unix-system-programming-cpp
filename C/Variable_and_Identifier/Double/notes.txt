@@ -6,3 +6,12 @@ For example, 32.9, -56.5, 9.0, etc., can all be represented by the double data t
 As we learnt earlier, %d is the format specifier for the int data type. Similarly, %lf is the format specifier for the double type.
 
 Let's see a program that declares and prints a double variable:
+
+Data Specifier Table
+| Data Type           | Format Specifier | Example                    |
+| ------------------- | ---------------- | -------------------------- |
+| `int`               | `%d`             | `printf("%d", age);`       |
+| `float`             | `%f`             | `printf("%f", height);`    |
+| `double`            | `%lf`            | `printf("%lf", distance);` |
+| `char`              | `%c`             | `printf("%c", letter);`    |
+| `string` (`char[]`) | `%s`             | `printf("%s", name);`      |
