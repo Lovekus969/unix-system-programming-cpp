@@ -1,0 +1,8 @@
+Printing a Variable
+Just like we use printf() to print words or numbers, we can also use it to print the value of a variable.
+
+But when printing a variable, we need to tell printf() what kind of data the variable holds (like a number, a decimal, or text). We do this using something called a format specifier.
+
+Each data type has an associated format specifier.
+
+For example, if we have an integer variable age and we want to print it, we'll use the format specifier %d.
