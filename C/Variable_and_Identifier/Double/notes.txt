@@ -26,3 +26,32 @@ Concept tested: memory model, IEEE-754, portability.
 Answer:
 Typically 8 bytes (64 bits) on both systems, but C standard does not guarantee it.
 FAANG cares about whether you know it's platform-dependent.
+
+NaN, +∞, and −∞ in C (IEEE-754 Floating-Point)
+
+C uses the IEEE-754 standard for floating-point numbers (float, double).
+This standard defines special values:
+
+🔶 1. NaN (Not a Number)
+Meaning:
+
+NaN represents an undefined or unrepresentable value.
+
+Common ways to produce NaN:
+
+0.0 / 0.0
+
+sqrt(-1.0)
+
+log(-5.0)
+
+Any operation involving an existing NaN
+
+Properties of NaN:
+
+NaN != NaN (this is important!)
+
+Any mathematical operation with NaN → NaN
+
+%f prints it as:
+nan (case varies: may show NaN, nan, or -nan)
