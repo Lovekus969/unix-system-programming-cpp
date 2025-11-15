@@ -15,3 +15,14 @@ Data Specifier Table
 | `double`            | `%lf`            | `printf("%lf", distance);` |
 | `char`              | `%c`             | `printf("%c", letter);`    |
 | `string` (`char[]`) | `%s`             | `printf("%s", name);`      |
+
+Q. What is the size of double in C on different systems?
+
+Question:
+What is the size of a double on a 32-bit system and a 64-bit system? Is it always 8 bytes?
+
+Concept tested: memory model, IEEE-754, portability.
+
+Answer:
+Typically 8 bytes (64 bits) on both systems, but C standard does not guarantee it.
+FAANG cares about whether you know it's platform-dependent.
