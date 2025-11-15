@@ -26,3 +26,60 @@ Who made UNIX (and who uses it now)?
         Apple – based macOS on BSD UNIX
 
 Today, UNIX-like systems (such as Linux and macOS) dominate servers, data centers, and developer environments.
+
+
+Basic Unix History :
+   A Short History of UNIX and C
+        1969 Ken Thompson wrote the first UNIX (in assembler) on a PDP7 at AT&T Bell
+        Labs, allegedly to play Space Travel
+        1970 Brian Kernighan coins the name UNIX. The UNIX project gets a PDP11 and
+        a task: Writing a text processing system
+        1971-72 Creation of C (Dennis Ritchie), UNIX rewritten in C
+        1972 Pipes arrive, UNIX installed on 10 (!) systems
+        1975 AT&T UNIX “Version 6” distributed with sources under academic licenses
+        1976 Ken Thompson in Berkely, leading to BSD UNIX
+        1977 1BSD release
+        1978 UNIX “Version 7”, leading to System V (AT&T)
+        Stephan Schulz 12
+  A Short History of UNIX and C
+        1978 3BSD, adding virtual memory
+        1980 Microsoft XENIX brand of UNIX
+        1982 4.2BSD, adding TCP/IP
+        1982 SGI IRIX
+        1983 Bjarne Stroustrup creates C++ (at AT&T Bell labs)
+        1983 GNU Project announced (Aim: Free UNIX-like system)
+        1983-1984 Berkeley Internet Name Demon (BIND) created
+        1984 SUN introduces NFS (Network File System)
+        1985 Free Software Foundation (Stallman), GNU manifesto, GNU Emacs
+        Stephan Schulz 13
+  A Short History of UNIX and C
+        1986 HP-UX, SunOS3.2 (from BSD Unix), “attack of the killer micros”
+        1986 MIT Project Athena creates X11 (Network window system)
+        1986 POSIX.1 (Portable operating system interface standard)
+        1988 GNU GPL
+        1988 System VR4 “One UNIX to rule them all” (AT&T+SUN)
+        1988 NeXTCUBE with NeXTSTEP operating system
+        1989 ANSI-C Standard “C89”(adds prototypes, standard library)
+        1889 SunOS 4.0x
+        1990 Net/1 Release (free BSD UNIX)
+        1990 IBM AIX
+        Stephan Schulz 14
+  A Short History of UNIX and C
+        1991 Linux 0.01, “attack of the killer PCs” (continuing till this day)
+        1991 World Wide Web born
+        1991–1992 Lawsuits around BSD UNIX Net/1 and Net/2 releases
+        1992 SunOS 5 aka Solaris-2 (from System VR4)
+        1993 FreeBSD 1.0
+        1994 Linux 1.0
+        1994 NetBSD 1.0, 4.4BSD Lite (unencumbered by AT&T copyrights, becomes new
+        base for all non-commercial BSD flavours)
+        1995 “UNIX wars” are over
+        1996 Tux the Penguin becomes Linux mascot
+        Stephan Schulz 15
+        A Short History of UNIX and C
+        1998 UNIX-98 branding (Single UNIX specification)
+        2000 New ANSI “C99”
+        2001 IBM runs prime time TV ads for Linux
+        2001 UNIX-based MacOS X
+        2002 Linux is at version 2.4, Emacs is version 21.2, SunOS is at 5.9 (aka Solaris 9),
+        BIND is version 9.2.1
