@@ -35,4 +35,7 @@ Basic Data Types in C with Sizes
 | --------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
 | `void`    | 0            | Represents “no value” — used for functions that return nothing, or for pointers to untyped memory (`void *`). |
 
+What is continuous memory in a pointer?
+Contiguous memory means:
+ All memory blocks are placed next to each other, with no gaps in between.
 
