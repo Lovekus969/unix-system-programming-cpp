@@ -36,3 +36,13 @@ Used to manipulate individual bits of data.
 Enumerations (enum)
         Definition:
         A set of named integer constants.
+
+Why does a structure end with a semicolon?
+    Every structure definition must end with ; because the C syntax treats it like declaring a new type.
+
+struct employee {
+    char firstName[20];
+    char lastName[20];
+    int age;
+    double hourlySalary;
+};
