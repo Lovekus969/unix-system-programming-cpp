@@ -33,3 +33,6 @@ Used to manipulate individual bits of data.
                     Permissions
                     Compression
                     Fast arithmetic
+Enumerations (enum)
+        Definition:
+        A set of named integer constants.
