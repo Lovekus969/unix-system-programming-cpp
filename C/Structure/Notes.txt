@@ -1,0 +1,2 @@
+What is a Structure in C?
+A structure is a user-defined data type that allows you to combine data items of different kinds. Structures are used to represent a record of related information.
