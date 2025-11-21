@@ -10,3 +10,6 @@ Typedef
     Definition:
     typedef creates a nickname/alias for a data type.
 
+Unions
+    Definition:
+    A union is like a structure, but all members share the same memory.
