@@ -75,3 +75,7 @@ Using sizeof() to get struct size
 
 Example:
     printf("Size = %zu bytes\n", sizeof(struct Card));
+
+Size depends on:
+        data types inside
+        padding/alignment rules
