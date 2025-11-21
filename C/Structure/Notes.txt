@@ -46,3 +46,8 @@ struct employee {
     int age;
     double hourlySalary;
 };
+
+Operations That Can Be Performed on Structures (1 of 3)
+.     Assigning one struct variable to another
+    can directly assign one struct variable to another if they are the same type.
+
