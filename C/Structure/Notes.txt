@@ -50,4 +50,21 @@ struct employee {
 Operations That Can Be Performed on Structures (1 of 3)
 .     Assigning one struct variable to another
     can directly assign one struct variable to another if they are the same type.
+example:=>> 
+struct Card {
+    const char *face;
+    const char *suit;
+};
 
+struct Card c1 = {"Ace", "Spades"};
+struct Card c2;
+
+c2 = c1;  // ✔ allowed — copies all members
+
+❗Important:
+
+If a structure contains pointers, only the pointer address is copied, not the actual data.
+
+Example:
+
+c2.face = c1.face;  // same char* pointer, not new memory
