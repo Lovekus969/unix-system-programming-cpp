@@ -79,3 +79,13 @@ Example:
 Size depends on:
         data types inside
         padding/alignment rules
+Summary 
+| Operation                    | Allowed?      | Notes                       |
+| ---------------------------- | ------------- | --------------------------- |
+| Assign one struct to another | ✔ Yes         | Shallow copy                |
+| Assign pointer members       | ✔ Yes         | Only pointer address copied |
+| Take address `&struct`       | ✔ Yes         | Use pointer with `->`       |
+| Access members with `.`      | ✔ Yes         | For normal variables        |
+| Access members with `->`     | ✔ Yes         | For pointers                |
+| Use `sizeof(struct)`         | ✔ Yes         | Finds total size            |
+| Zero-initialize with `{}`    | ✔ Very useful | Sets all members to 0/NULL  |
