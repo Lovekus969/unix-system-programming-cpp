@@ -89,3 +89,11 @@ Summary
 | Access members with `->`     | ✔ Yes         | For pointers                |
 | Use `sizeof(struct)`         | ✔ Yes         | Finds total size            |
 | Zero-initialize with `{}`    | ✔ Very useful | Sets all members to 0/NULL  |
+
+We are going to see a clear explanation of  why structure objects cannot be compared directly in C, along with what padding, alignment, and holes mean.
+
+Structure members may not be stored in continuous memory due to padding and alignment rules used by the CPU.
+Because of padding:
+
+    Two structs with identical member values may have different binary memory layouts.
+    Comparing raw bytes would give incorrect results.
