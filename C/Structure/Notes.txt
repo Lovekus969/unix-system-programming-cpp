@@ -97,3 +97,18 @@ Because of padding:
 
     Two structs with identical member values may have different binary memory layouts.
     Comparing raw bytes would give incorrect results.
+
+What Is Padding? (The “Holes”)
+
+        Modern CPUs require data to be aligned to certain byte boundaries for fast access.
+        Example: int usually needs to start at a 4-byte boundary.
+        
+        So consider:
+        
+        struct example {
+            char c;   // 1 byte
+            int i;    // 4 bytes
+        };
+        
+        
+        Memory layout with padding on a 4-byte aligned machine:
