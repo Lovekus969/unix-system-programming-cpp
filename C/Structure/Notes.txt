@@ -69,3 +69,9 @@ c2 = c1;  // ✔ allowed — copies all members
 
 Example: 
     c2.face = c1.face;  // same char* pointer, not new memory
+
+Using sizeof() to get struct size
+    can check how much memory the entire structure uses.
+
+Example:
+    printf("Size = %zu bytes\n", sizeof(struct Card));
