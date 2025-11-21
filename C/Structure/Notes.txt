@@ -13,3 +13,23 @@ Typedef
 Unions
     Definition:
     A union is like a structure, but all members share the same memory.
+. Bitwise Operators
+
+Used to manipulate individual bits of data.
+    
+    Operators:
+    
+                    & AND
+                    | OR
+                    ^ XOR
+                    ~ NOT
+                    << left shift
+                    >> right shift
+    
+    Why useful?
+    
+                    Hardware programming
+                    Flags and masks
+                    Permissions
+                    Compression
+                    Fast arithmetic
