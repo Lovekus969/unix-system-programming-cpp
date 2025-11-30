@@ -11,3 +11,8 @@ Why using STRUCT prevents crashes
   Real-time systems depend on fixed memory layout.
   The layout of a struct is predictable, well-aligned, and optimized by the compiler.
   If your system expects a specific memory format (e.g., a network packet, sensor data), and you pass random parameters separately, you can corrupt the memory.
+
+3. Structs avoid stack overflow
+
+  Passing too many arguments uses too much stack.
+  Structs use one pointer, so memory usage stays small and constant.
