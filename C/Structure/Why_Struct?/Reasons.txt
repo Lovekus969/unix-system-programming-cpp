@@ -22,3 +22,10 @@ Why using STRUCT prevents crashes
   In multi-threaded systems:
   Updating one field at a time is dangerous.
   Updating the entire struct at once is safe.
+
+5. Structs make APIs stable
+
+  Large companies like Google maintain APIs used by thousands of developers.
+  If they passed 8 parameters and then needed to add 2 more → all code breaks.
+  But with structs:
+    You can add new fields without breaking old code.
