@@ -67,3 +67,6 @@ Example of what shifts:
 | ------------- | -------------------------------------------- |
 | timestamp     | becomes `safe_mode` accidentally             |
 | safe_mode     | becomes garbage value in memory              |
+
+
+Cheackout file curruption.c 
