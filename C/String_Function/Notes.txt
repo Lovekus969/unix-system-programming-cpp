@@ -7,3 +7,9 @@ C String Functions (with simple explanations)
 
   Copies the entire string from src to dest including \0.
   dest must have enough memory.
+
+3. strncpy(dest, src, n)
+
+  Copies at most n characters.
+  If src is smaller than n, padding happens with \0.
+  Safer than strcpy.
