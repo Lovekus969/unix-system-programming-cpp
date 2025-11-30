@@ -1,3 +1,7 @@
 In large real-time systems (Google servers, databases, OS kernels, self-driving car systems, telecom systems), you must keep data organized, consistent, and safe.
 
 If you pass too many individual parameters around instead of grouping them in a struct:
+
+Why using STRUCT prevents crashes
+  1. Struct groups related data together
+  Passing 10 separate arguments increases the chance of an error.
