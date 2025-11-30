@@ -29,3 +29,41 @@ Why using STRUCT prevents crashes
   If they passed 8 parameters and then needed to add 2 more → all code breaks.
   But with structs:
     You can add new fields without breaking old code.
+
+
+REAL-TIME EXAMPLE (GOOGLE-LEVEL):
+  Google Search Backend: Handling a Search Request
+  Every time someone types something on Google, billions of requests flow across thousands of servers.
+  Google internally uses functions like:
+
+                                               handleSearch(query, user_id, region, device, language, timestamp);
+
+    Now imagine this is deployed across:
+    
+    300,000 servers
+    
+    hundreds of microservices
+    
+    global data centers
+
+PROBLEM: Passing individual parameters is dangerous
+Say Google decides to add 1 new field: 
+                                                            int safe_mode;
+
+So  the function be look like 
+                                             handleSearch(query, user_id, region, device, language, timestamp, safe_mode);              // X  safe_mode has been added  X
+
+But the new function expects 7 parameters.
+
+RESULT?
+
+          Servers crash or behave unpredictably
+          Wrong values shift into wrong fields
+          Memory corruption happens
+          Requests get misinterpreted
+          The entire search service can freeze or misroute traffic
+Example of what shifts:
+| Old Parameter | New Meaning after function signature changes |
+| ------------- | -------------------------------------------- |
+| timestamp     | becomes `safe_mode` accidentally             |
+| safe_mode     | becomes garbage value in memory              |
