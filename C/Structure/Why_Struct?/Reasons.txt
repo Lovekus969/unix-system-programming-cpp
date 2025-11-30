@@ -70,3 +70,14 @@ Example of what shifts:
 
 
 Cheackout file curruption.c 
+
+WHY THIS BREAKS IN REAL SYSTEMS
+    When calling the new function but passing only old arguments:
+            The last parameter (safe_mode) is taken from random leftover stack memory.
+    
+    Could be:
+    
+            a huge negative value
+            0 or 1 incorrectly
+            a memory pointer
+            corrupted bytes
