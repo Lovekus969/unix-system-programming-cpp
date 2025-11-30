@@ -81,3 +81,7 @@ WHY THIS BREAKS IN REAL SYSTEMS
             0 or 1 incorrectly
             a memory pointer
             corrupted bytes
+
+VERSION 2 – SAFE DESIGN (Using STRUCT)
+
+cheack out the file Struct_Non_Corruption 
