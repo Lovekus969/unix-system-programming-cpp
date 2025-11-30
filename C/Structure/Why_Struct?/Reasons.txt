@@ -16,3 +16,9 @@ Why using STRUCT prevents crashes
 
   Passing too many arguments uses too much stack.
   Structs use one pointer, so memory usage stays small and constant.
+
+4. Structs allow atomic updates
+
+  In multi-threaded systems:
+  Updating one field at a time is dangerous.
+  Updating the entire struct at once is safe.
