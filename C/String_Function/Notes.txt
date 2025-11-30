@@ -3,3 +3,7 @@ C String Functions (with simple explanations)
 
   Returns the length of the string (number of characters before \0).
   Does NOT count the null terminator.
+2. strcpy(dest, src)
+
+  Copies the entire string from src to dest including \0.
+  dest must have enough memory.
