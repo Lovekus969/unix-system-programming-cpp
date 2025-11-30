@@ -13,3 +13,8 @@ C String Functions (with simple explanations)
   Copies at most n characters.
   If src is smaller than n, padding happens with \0.
   Safer than strcpy.
+
+4. strcat(dest, src)
+
+  Appends src to the end of dest.
+  dest MUST have enough space.
