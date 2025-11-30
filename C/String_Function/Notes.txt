@@ -1,0 +1,5 @@
+C String Functions (with simple explanations)
+1. strlen(char *str)
+
+  Returns the length of the string (number of characters before \0).
+  Does NOT count the null terminator.
