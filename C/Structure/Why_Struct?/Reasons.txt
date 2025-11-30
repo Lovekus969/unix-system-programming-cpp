@@ -5,3 +5,9 @@ If you pass too many individual parameters around instead of grouping them in a 
 Why using STRUCT prevents crashes
   1. Struct groups related data together
   Passing 10 separate arguments increases the chance of an error.
+
+2. Struct ensures memory layout is consistent
+
+  Real-time systems depend on fixed memory layout.
+  The layout of a struct is predictable, well-aligned, and optimized by the compiler.
+  If your system expects a specific memory format (e.g., a network packet, sensor data), and you pass random parameters separately, you can corrupt the memory.
