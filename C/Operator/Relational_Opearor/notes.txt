@@ -4,3 +4,30 @@ They always return either:
 1 (true)
 
 0 (false)
+
+
+some solved questions 
+Q1
+int x = 7, y = 7;
+printf("%d", x >= y);  
+
+
+7 ≥ 7 → true → 1
+✔ Correct
+
+Q2
+int a = 5, b = 2;
+printf("%d", a < b);
+
+
+5 < 2 → false → 0
+✔ Correct
+
+Q3
+int p = 10, q = 5;
+printf("%d", p == q*2);
+
+
+q * 2 = 10
+10 == 10 → true → 1
+✔ Correct
