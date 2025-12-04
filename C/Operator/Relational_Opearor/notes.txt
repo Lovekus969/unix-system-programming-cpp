@@ -1,0 +1,6 @@
+Relational operators are used to compare two values.
+They always return either:
+
+1 (true)
+
+0 (false)
