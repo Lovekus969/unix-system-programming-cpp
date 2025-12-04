@@ -1,12 +1,30 @@
 Logical Operators in C
 Definition
 
-Logical operators are used to combine or invert conditional expressions (true/false statements) in C.
+    Logical operators are used to combine or invert conditional expressions (true/false statements) in C.
 
 They always return either:
+    
+    1 → True
+    
+    0 → False
+    
+    Logical operators are mostly used in decision-making, loops, and complex conditions.
 
-1 → True
+Why We Use Logical Operators
 
-0 → False
+    To check multiple conditions together.
+    Example: "If age > 18 and has permission → allow access."
 
-Logical operators are mostly used in decision-making, loops, and complex conditions.
+    To invert a condition using NOT (!).
+    Example: "If it is not raining, go outside."
+    
+    To make complex decisions readable and concise.
+    In loops, to combine multiple stopping/continuing conditions.
+
+When We Use Logical Operators
+
+    Conditional Statements: if, else if, switch
+    Loops: while, for, do-while
+    Boolean Expressions: Combining multiple comparisons
+    FAANG-level code: Checking multiple criteria efficiently in one line
