@@ -1,0 +1,5 @@
+Compound Assignment Operators (Easy Explanation)
+
+A compound assignment operator performs an operation on the left-hand operand using the right-hand operand, and then stores the result back in the left-hand operand.
+
+It is basically a shortcut for doing an operation + assignment together.
