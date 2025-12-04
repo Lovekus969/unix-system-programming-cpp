@@ -7,3 +7,10 @@ They return:
 1 → true
 
 0 → false
+
+
+Q3 Solvee ;;
+int p = 3, q = 5;
+printf("%d", p == q > 2);
+
+HInt : cheack precedence first the greater than which will give 1 then 1==3 =0 so ans is 0 
