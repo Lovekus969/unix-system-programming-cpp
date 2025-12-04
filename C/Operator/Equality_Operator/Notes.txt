@@ -1,0 +1,9 @@
+Equality Operators in C
+
+Equality operators are used to compare two values.
+
+They return:
+
+1 → true
+
+0 → false
