@@ -1,0 +1,12 @@
+Logical Operators in C
+Definition
+
+Logical operators are used to combine or invert conditional expressions (true/false statements) in C.
+
+They always return either:
+
+1 → True
+
+0 → False
+
+Logical operators are mostly used in decision-making, loops, and complex conditions.
