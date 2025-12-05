@@ -1,0 +1,70 @@
+C Operator Precedence (Highest → Lowest)
+1. Postfix
+
+expr++ expr-- () [] . ->
+
+2. Prefix / Unary
+
+++expr --expr + - ! ~ * & sizeof (type)
+
+3. Multiplicative
+
+* / %
+
+4. Additive
+
++ -
+
+5. Shift
+
+<< >>
+
+6. Relational
+
+< <= > >=
+
+7. Equality
+
+== !=
+
+8. Bitwise AND
+
+&
+
+9. Bitwise XOR
+
+^
+
+10. Bitwise OR
+
+|
+
+11. Logical AND
+
+&&
+
+12. Logical OR
+
+||
+
+13. Conditional
+
+?:
+
+14. Assignment
+
+= += -= *= /= %= <<= >>= &= ^= |=
+
+15. Comma
+
+,
+
+ QUICK MEMORY HACK (FAANG Trick)
+
+ Highest to lowest:
+P U M A S R E B X O L O C A C
+(Postfix, Unary, Multiplicative, Additive, Shift, Relational, Equality, Bitwise AND, XOR, OR, Logical AND, OR, Conditional, Assignment, Comma)
+
+But easiest:
+
+"Postfix → Unary → * / % → + - → Shifts → Compare → == != → Bitwise → Logical → ?: → Assignment → ,”
