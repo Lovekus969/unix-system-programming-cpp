@@ -1,0 +1,6 @@
+
+Increment & Decrement Operators in C
+  These are unary operators — they operate on a single variable.
+
+    Increment Operator: ++
+    Adds 1 to a variable.
