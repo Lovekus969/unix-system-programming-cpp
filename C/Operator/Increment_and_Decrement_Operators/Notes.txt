@@ -4,3 +4,17 @@ Increment & Decrement Operators in C
 
     Increment Operator: ++
     Adds 1 to a variable.
+
+Two Types: Pre and Post
+1️ Prefix (Pre-increment / Pre-decrement)
+    Happens before the value is used.
+    
+        ++x → increments first, then uses the value
+        
+        --x → decrements first, then uses the value
+
+Postfix (Post-increment / Post-decrement)
+  Happens after the value is used.
+  
+      x++ → uses the current value, then increments
+      x-- → uses the current value, then decrements
