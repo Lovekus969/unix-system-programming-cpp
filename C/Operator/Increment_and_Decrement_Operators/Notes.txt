@@ -18,3 +18,13 @@ Postfix (Post-increment / Post-decrement)
   
       x++ → uses the current value, then increments
       x-- → uses the current value, then decrements
+
+  Why Are They Important (FAANG Perspective)?
+  
+  FAANG interviews LOVE these operators because they:
+  
+  ⭐ 1. Test deep understanding of evaluation order
+  
+Post-increment vs pre-increment is one of the biggest sources of bugs in real systems.
+
+Example FAANG trick:
