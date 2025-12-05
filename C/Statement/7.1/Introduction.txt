@@ -36,3 +36,13 @@ int main() {
 
     return 0;                // jump statement
 }
+
+
+
+
+What is an if statement?
+      The if statement allows your program to make decisions.
+It checks a condition:
+      
+      If condition is true (non-zero) → code inside the block runs
+      If condition is false (zero) → code is skipped
