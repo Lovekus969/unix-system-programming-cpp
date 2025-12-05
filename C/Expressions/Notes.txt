@@ -22,3 +22,36 @@ Use +, -, *, /, %
 
 int x = 10 + 20;   // 30
 int y = x * 2;    
+
+
+2. Relational Expressions
+
+Check true/false relationships.
+
+int a = 5 > 3;   // 1 (true)
+int b = 10 == 20; // 0 (false)
+
+3️⃣ Logical Expressions
+
+Use &&, ||, !
+
+int ok = (age >= 18) && (hasID == 1);
+
+4️⃣ Assignment Expressions
+
+Use =, +=, -=, *=, etc.
+
+x += 5;   // same as x = x + 5;
+
+5️⃣ Increment / Decrement Expressions
+
+Use ++ or --
+
+i++;   // post increment
+++i;   // pre increment
+
+6️⃣ Conditional (Ternary) Expression
+
+Shortcut for if-else.
+
+result = (age >= 18) ? 1 : 0;
