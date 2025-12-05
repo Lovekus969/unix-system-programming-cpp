@@ -1,3 +1,13 @@
 What Are Statements in C?
 
 A statement is a complete instruction that tells the C compiler what to do.
+
+Why Statements Matter (FAANG Level)
+
+FAANG interviewers check:
+
+      how you control flow
+      whether you understand scope
+      logical thinking
+      clean, structured code
+      correct use of loops and conditions
