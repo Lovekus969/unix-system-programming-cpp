@@ -1,0 +1,5 @@
+What Is an Expression in C?
+
+An expression is anything in C that produces a value.
+
+Think of it like math + logic + variables combined.
