@@ -14,3 +14,11 @@ FAANG interviews often ask you to predict the output of expressions using:
     arithmetic
     assignment
     Understanding expressions = writing correct and bug-free code.
+
+Types of Expressions in C
+1️⃣ Arithmetic Expressions
+
+Use +, -, *, /, %
+
+int x = 10 + 20;   // 30
+int y = x * 2;    
