@@ -46,3 +46,8 @@ It checks a condition:
       
       If condition is true (non-zero) → code inside the block runs
       If condition is false (zero) → code is skipped
+
+1. What is a switch Statement?
+
+A switch lets you choose between multiple possible cases based on the value of a variable or expression.
+It is like an advanced version of else-if ladder, but cleaner when you have many cases.
