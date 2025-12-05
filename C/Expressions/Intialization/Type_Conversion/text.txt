@@ -3,3 +3,20 @@ What Is an Expression in C?
 An expression is anything in C that produces a value.
 
 Think of it like math + logic + variables combined.
+
+
+What Is Type Conversion in C?
+
+Type Conversion means changing one data type into another.
+
+Example: converting int → float, char → int, etc.
+
+It happens in two ways:
+
+      1️⃣ Implicit Type Conversion (Automatic / Type Promotion)
+      
+      C converts automatically when needed.
+      
+      2️⃣ Explicit Type Conversion (Casting)
+      
+      You force the conversion.
