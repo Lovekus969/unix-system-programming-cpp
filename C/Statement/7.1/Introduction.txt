@@ -11,3 +11,28 @@ FAANG interviewers check:
       logical thinking
       clean, structured code
       correct use of loops and conditions
+
+
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 5;               // assignment expression statement
+    int b = 3;
+
+    int c = a + b;           // arithmetic expression statement
+    int d = (a * b) + 10;    // complex expression
+
+    a++;                     // increment expression
+    b--;                     // decrement expression
+
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("c = %d\n", c);
+    printf("d = %d\n", d);
+
+    printf("Function call is also an expression!\n");
+
+    return 0;                // jump statement
+}
