@@ -1,0 +1,16 @@
+What Is an Expression in C?
+
+  An expression is anything in C that produces a value.
+  Think of it like math + logic + variables combined.
+
+Why Expressions Matter?
+
+Because every line of C code is built from expressions.
+FAANG interviews often ask you to predict the output of expressions using:
+
+    operator precedence
+    increment/decrement
+    logical operators
+    arithmetic
+    assignment
+    Understanding expressions = writing correct and bug-free code.
