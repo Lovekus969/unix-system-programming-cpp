@@ -49,5 +49,9 @@ It checks a condition:
 
 1. What is a switch Statement?
 
-A switch lets you choose between multiple possible cases based on the value of a variable or expression.
-It is like an advanced version of else-if ladder, but cleaner when you have many cases.
+      A switch lets you choose between multiple possible cases based on the value of a variable or expression.
+      It is like an advanced version of else-if ladder, but cleaner when you have many cases.
+
+Why Do We Use break?
+
+      Because without break, the execution continues to the next case (fall-through behavior).
