@@ -28,3 +28,11 @@ Postfix (Post-increment / Post-decrement)
 Post-increment vs pre-increment is one of the biggest sources of bugs in real systems.
 
 Example FAANG trick:
+
+
+3. Crucial for pointer arithmetic
+
+FAANG-level C questions often use pointers:
+
+int *p = arr;
+p++;
