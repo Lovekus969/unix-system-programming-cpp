@@ -1,0 +1,132 @@
+✅ Q1. Predict Output — Multiple Fall-Through Cases
+Code:
+#include <stdio.h>
+
+int main() {
+    int x = 2;
+
+    switch (x) {
+        case 1:
+            printf("A ");
+        case 2:
+            printf("B ");
+        case 3:
+            printf("C ");
+            break;
+        case 4:
+            printf("D ");
+        default:
+            printf("E ");
+    }
+
+    return 0;
+}
+
+Your Task:
+
+Tell me: what is the output?
+
+Think step-by-step:
+
+x = 2 → jumps to case 2
+
+no break before case 3
+
+executes case 2 → case 3 → break
+
+🚀 Q2. Switch with Expression Evaluation
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+
+    switch (a + 1) {
+        case 5: printf("Five"); break;
+        case 6: printf("Six"); break;
+        default: printf("Default");
+    }
+
+    return 0;
+}
+
+
+👉 What will the program print?
+
+🔥 Q3. Character Switch — Hidden ASCII Trick
+#include <stdio.h>
+
+int main() {
+    char c = 'A' + 1;
+
+    switch (c) {
+        case 'A': printf("Alpha"); break;
+        case 'B': printf("Bravo"); break;
+        case 67 : printf("Charlie"); break;
+        default:  printf("None");
+    }
+
+    return 0;
+}
+
+
+Remember:
+
+'A' = 65
+
+'B' = 66
+
+'C' = 67
+
+👉 What prints?
+
+⚡ Q4. Switch Inside Switch (Nested Switch)
+
+This is VERY FAANG-liked because it checks your real logic skills.
+
+#include <stdio.h>
+
+int main() {
+    int role = 2;     // 1 = Student, 2 = Worker
+    int permit = 1;   // 1 = Full-time, 2 = Part-time
+
+    switch (role) {
+        case 1:
+            printf("Student");
+            break;
+
+        case 2:
+            switch (permit) {
+                case 1: printf("Full-Time Worker"); break;
+                case 2: printf("Part-Time Worker"); break;
+                default: printf("Unknown Permit");
+            }
+            break;
+
+        default:
+            printf("Unknown Role");
+    }
+
+    return 0;
+}
+
+
+👉 What will print?
+
+💡 Q5. Switch Without Default — No Case Match
+#include <stdio.h>
+
+int main() {
+    int n = 10;
+
+    switch (n) {
+        case 1: printf("One"); break;
+        case 2: printf("Two"); break;
+        case 5: printf("Five"); break;
+    }
+
+    printf(" Done");
+    return 0;
+}
+
+
+👉 What is the full output?
